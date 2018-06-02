@@ -12,6 +12,8 @@ zahl = 15
 [[daten_und_fakten.kennzahlen]]
 beschriftung = "<p>Quadratmeter verlegte Folie</p>"
 zahl = "90.000"
+[menu.main]
+weight = 3
 [offene_stellen]
 titel = "<p>Wir Suchen DICH - jetzt bewerben!</p>"
 [[offene_stellen.stellen]]
