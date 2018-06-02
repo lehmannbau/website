@@ -15,7 +15,7 @@ h4 {
 .dw {
   position: absolute;
   top: 0;
-  left: 50vw;
+  left: 50%;
 }
 .dw .dl {
   width: 0;
@@ -55,7 +55,11 @@ h4 {
   height: 100%;
 }
 #headermenu {
-  display: block;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
 }
 #headermenu .container {
   display: flex;
@@ -77,29 +81,30 @@ h4 {
 #headermenu a.active {
   color: #cad51d;
 }
+.clearfix {
+  display: block;
+  float: none;
+  clear: both;
+}
 footer {
+  background: #4c4c52;
   position: relative;
-  padding: 4rem 0;
+  padding: 0.75rem 0;
+  margin-top: 11rem;
 }
 footer .footercont .logo {
   max-height: 20vh;
 }
-@media only screen and (max-width: 767px) {
-  footer .footercont .logocolumn {
-    text-align: center;
-  }
-}
 footer .footermenu {
-  margin-top: 4rem;
   display: flex;
   justify-content: center;
 }
 footer .footermenu a {
-  color: #4c4c52;
+  color: white;
   font-size: 0.9rem;
   padding: 0 0.5rem;
   line-height: 0.9rem;
-  border-right: 1px solid #4c4c52;
+  border-right: 1px solid white;
 }
 footer .footermenu a:last-child {
   border: none!important;
@@ -141,9 +146,6 @@ header {
 header .logocol {
   text-align: center;
 }
-header .logo {
-  margin: 3rem 0;
-}
 header > .ui.container {
   display: flex;
   justify-content: space-between;
@@ -163,7 +165,7 @@ header .contacts ul {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  color: #4c4c52;
+  color: #777777;
 }
 header .contacts ul li {
   list-style-type: none;
@@ -215,32 +217,39 @@ header .contacts ul li {
   border-top: 3vh solid #f0f0f0;
 }
 .home_services {
-  margin-top: 4rem;
+  padding: 4rem 0;
+  margin-bottom: 5rem;
   position: relative;
   min-height: 200px;
-  padding: 2rem 0;
-}
-@media only screen and (max-width: 767px) {
-  .home_services {
-    margin-top: 0rem;
-  }
-}
-.home_services .imgcol img {
-  width: 100%;
 }
 .home_services h2 {
-  font-weight: normal;
-  color: #cad51d;
+  color: white;
   text-transform: uppercase;
-  font-size: 2.2rem;
-}
-.home_services h2 em {
-  color: #4c4c52;
-  font-style: normal;
+  font-size: 1.3rem;
+  text-align: center;
 }
 .home_services ul {
   margin: 0;
   padding-left: 1em;
+}
+.home_services .column {
+  background: white;
+  text-align: center;
+  margin: 2rem 0 -5rem 0;
+  border-right: 1px solid #777777;
+}
+.home_services .column img {
+  max-width: 50%;
+}
+.home_services .column h3 {
+  color: #4c4c52;
+  text-transform: uppercase;
+}
+.home_services .column .content {
+  color: #777777;
+}
+.home_services .column:last-child {
+  border: none;
 }
 .about_about {
   position: relative;
@@ -530,4 +539,18 @@ header .contacts ul li {
 }
 .references .reflist .imgcol img {
   width: 100%;
+}
+.services_page .services_topimage {
+  height: 400px;
+}
+.services_page .titlecontainer {
+  background: white;
+  margin-top: -2rem;
+  position: relative;
+  padding: 4rem 0 2rem 0;
+}
+.services_page h1 {
+  color: #cad51d;
+  text-align: center;
+  text-transform: uppercase;
 }

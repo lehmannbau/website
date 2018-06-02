@@ -11,41 +11,27 @@
     <div class="dr"></div>
   </div>
 </div>
-<div class="home_services" style="background:url({{partial "imgUrl" (dict "img " .Params.leistungen.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:contain;">
-  <div class="vtitle">{{.Params.leistungen.titel_links_hochkant}}</div>
+<div class="home_services" style="background:url({{partial "imgUrl" (dict "img" .Params.leistungen.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:cover;">
   <div class="ui container">
-    <div class="ui stackable two column grid">
-      <div class="column imgcol">
-        <img src="{{partial "imgUrl" (dict "img" .Params.leistungen.bild "params " "c_scale,w_700" )}}" />
-      </div>
-      <div class="column">
-        {{ .Params.leistungen.content | safeHTML }}
-      </div>
-    </div>
-  </div>
-</div>
-<div class="home_ausf">
-  <h2>{{ .Params.ausfuhrungen.titel }}</h2>
-  <div class="ui container">
-    <div class="ui doubling six column grid">
-      {{ range .Params.ausfuhrungen.ausfuhrungen }}
-      <div class="column imgcol">
-        <a href="/referenzen">
-          <img src="{{partial "imgUrl" (dict "img" .bild "params " "c_scale,w_360" )}}" />
-          <div class="label">{{.titel}}</div>
-        </a>
-      </div>
-      {{ end }}
-    </div>
+    <h2>{{.Params.leistungen.titel}}</h2>
+    <div>{{ .Params.leistungen.content | safeHTML }}</div>
     <div class="ui stackable three column grid">
-      {{ range .Params.ausfuhrungen.kennzahlen }}
-      <div class="column knz">
-        <div class="year">{{.zahl}}</div>
-        <div class="label">{{ .beschriftung | safeHTML }}</div>
+      {{ range .Params.leistungen.leistungen }}
+      <div class="column imgcol">
+        <div class="cw">
+          <a href="/leistungen">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_360" )}}" />
+            <h3>{{.titel}}</h3>
+            <div class="content">{{.content  | safeHTML}}</div>
+          </a>
+        </div>
       </div>
       {{ end }}
     </div>
   </div>
+  <div class="dw">
+    <div class="dl"></div>
+    <div class="dr"></div>
+  </div>
 </div>
-
 {{ end }}

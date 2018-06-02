@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="services_page">
+  <div class="services_topimage" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_oben "params" "c_scale,h_400" )}}) center center; background-size:cover">
+
+  </div>
+  <div class="ui container titlecontainer">
+    <h1>{{ .Params.titel }}</h1>
+    <div class="dw">
+      <div class="dl"></div>
+      <div class="dr"></div>
+    </div>
+  </div>
+  <div class="services_list">
+    <div class="ui grid">
+      {{ range $i,$p := .Params.leistungen }} {{if not (modBool $i 2)}}
+      <div class="row">
+        <div class="six wide column" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) center center; background-size:cover">
+        </div>
+        <div class="eight wide column">
+          <h3>{{.titel}}</h3>
+          <div>{{ .content | safeHTML }}</div>
+        </div>
+        <div class="two wide column">2</div>
+      </div>
+      {{else}}
+        <div class="row">
+          <div class="two wide column"></div>
+          <div class="eight wide column">
+            <h3>{{.titel}}</h3>
+            <div>{{ .content | safeHTML }}</div>
+          </div>
+          <div class="six wide column" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) center center; background-size:cover">
+          </div>
+        </div>
+        {{end}} {{end}}
+    </div>
+  </div>
+  {{ end }}
