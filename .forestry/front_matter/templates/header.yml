@@ -1,0 +1,28 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: file
+  name: logo
+  label: Logo
+- type: field_group_list
+  name: kontaktdaten
+  label: Kontaktdaten
+  fields:
+  - type: text
+    name: text
+    label: Text
+    config:
+      required: true
+  - type: select
+    name: icon
+    config:
+      source:
+        type: simple
+      options:
+      - phone
+      - envelope outline
+      - map signs
+      required: true
+    label: Icon
+    description: https://semantic-ui.com/elements/icon.html

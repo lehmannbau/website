@@ -1,0 +1,157 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- type: field_group
+  name: teaser_oben
+  label: Teaser oben
+  fields:
+  - type: text
+    name: titel_links_hochkant
+    label: Titel links hochkant
+  - type: textarea
+    name: beschriftung
+    label: Beschriftung
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: bild
+    label: Bild
+- type: field_group
+  name: uber_uns
+  label: "Über uns"
+  fields:
+  - type: text
+    name: titel_links_hochkant
+    label: Titel links hochkant
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: number
+    name: jahre
+    label: Jahre
+    config:
+      min: '0'
+      max: '99'
+      step: '1'
+  - type: textarea
+    name: jahre_beschriftung
+    label: Jahre Beschriftung
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: bild_rechts
+    label: Bild rechts
+  - type: file
+    name: hintergrund
+    label: Hintergrund
+- type: field_group
+  name: leistungen
+  label: Leistungen
+  fields:
+  - type: text
+    label: Titel links hochkant
+    name: titel_links_hochkant
+  - type: file
+    name: bild
+    label: Bild
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    label: Hintergrund
+    name: hintergrund
+- type: field_group
+  name: ausfuhrungen
+  label: Ausführungen
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: field_group_list
+    label: Ausführungen
+    name: ausfuhrungen
+    fields:
+    - type: text
+      name: titel
+      label: Titel
+    - type: select
+      name: link
+      config:
+        source:
+          type: pages
+          section: pages
+      label: Link
+    - type: file
+      name: bild
+      label: Bild
+    config:
+      labelField: titel
+  - type: field_group_list
+    name: kennzahlen
+    label: Kennzahlen
+    fields:
+    - type: number
+      name: zahl
+      label: Zahl
+      config:
+        min: '0'
+        max: '99999'
+        step: '1'
+        required: true
+    - type: textarea
+      name: beschriftung
+      label: Beschriftung
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
+- type: field_group
+  name: staerken
+  label: Stärken
+  fields:
+  - type: text
+    name: titel_links_hochkant
+    label: Titel links hochkant
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content_links
+    label: Content links
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: textarea
+    name: content_rechts
+    label: Content rechts
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: hintergrund
+    label: Hintergrundbild
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- _index.md
