@@ -24,3 +24,5 @@ fields:
   - type: file
     name: hintergrund
     label: Hintergrund
+pages:
+- leistungen.md
