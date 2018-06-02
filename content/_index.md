@@ -30,7 +30,7 @@ leistungen:
     icon: "/uploads/logo.png"
     content: "<p>Bodenplatte, Rohbau, Hochbau, Garagen, Holzbau, schlüsselfertiges
       Bauen, Projektbegleitung...</p>"
-seo_description: ''
+seo_description: test
 menu:
   main:
     weight: 1
