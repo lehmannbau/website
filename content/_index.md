@@ -14,10 +14,18 @@ uber_uns:
     die beste Alternative aus.</p>"
   hintergrund: "/uploads/fotolia_186947815.jpg"
 leistungen:
-  titel: ''
+  titel: Unsere Leistungen
   content: ''
-  hintergrund: ''
-  leistungen: []
+  hintergrund: "/uploads/fotolia_36158202_sw.jpg"
+  leistungen:
+  - titel: Innenausbau
+    icon: "/uploads/logo.png"
+    content: "<p>Bodenverlegung, Wandgestaltung, Rigipskonstruktionen, Isolierung,
+      Treppenbau, Industrieböden ...</p>"
+  - titel: Massivbau
+    icon: "/uploads/logo.png"
+    content: "<p>Bodenplatte, Rohbau, Hochbau, Garagen, Holzbau, schlüsselfertiges
+      Bauen, Projektbegleitung...</p>"
 seo_description: ''
 menu:
   main:
