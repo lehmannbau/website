@@ -7,19 +7,10 @@ fields:
   type: text
   hidden: false
   default: ''
-<<<<<<< HEAD
-=======
-- name: date
-  label: Date
-  type: text
-  hidden: false
-  default: 
->>>>>>> 4959992843d4aea044d723a3457036eba6223486
 - name: draft
   label: Draft
   type: boolean
   hidden: false
-<<<<<<< HEAD
   default: false
 - type: text
   name: seo_description
@@ -28,6 +19,3 @@ pages:
 - impressum.md
 - datenschutz.md
 - haftungsausschluss.md
-=======
-  default: true
->>>>>>> 4959992843d4aea044d723a3457036eba6223486
