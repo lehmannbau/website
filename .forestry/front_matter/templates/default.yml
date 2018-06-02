@@ -16,7 +16,7 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
-- leistungen.md
-- impressum.md
-- datenschutz.md
 - haftungsausschluss.md
+- datenschutz.md
+- impressum.md
+- leistungen.md
