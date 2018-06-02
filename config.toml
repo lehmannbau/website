@@ -1,0 +1,4 @@
+baseURL = "https://lehmann-bau.github.io"
+languageCode = "de-de"
+theme = "lehmannbau"
+title = "Lehmann Bau"
