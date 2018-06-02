@@ -2,22 +2,21 @@
 <div class="home_topteaser" style="background:url({{partial "imgUrl" (dict "img" .Params.teaser_oben.bild "params " "c_scale,h_400" )}}) center center; background-size:cover">
 
 </div>
-<div class="home_about">
-  <div class="vtitle">{{.Params.uber_uns.titel_links_hochkant}}</div>
-  <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .Params.uber_uns.hintergrund "params" "c_scale,h_400 " )}}) 45% center no-repeat; background-size:contain;">
-    <div class="ui stackable two column grid">
-      <div class="column">
-        {{ .Params.uber_uns.content | safeHTML }}
-      </div>
-    </div>
+<div class="home_about" style="background:url({{partial "imgUrl" (dict "img" .Params.uber_uns.hintergrund "params" "c_scale,h_400,e_blur:500" )}}) center center no-repeat; background-size:contain;">
+  <div class="ui container">
+    {{ .Params.uber_uns.content | safeHTML }}
+  </div>
+  <div class="dw">
+    <div class="dl"></div>
+    <div class="dr"></div>
   </div>
 </div>
-<div class="home_services" style="background:url({{partial "imgUrl" (dict "img " .Params.leistungen.hintergrund "params" "c_scale,h_600 " )}}) left center no-repeat; background-size:contain;">
+<div class="home_services" style="background:url({{partial "imgUrl" (dict "img " .Params.leistungen.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:contain;">
   <div class="vtitle">{{.Params.leistungen.titel_links_hochkant}}</div>
   <div class="ui container">
     <div class="ui stackable two column grid">
       <div class="column imgcol">
-        <img src="{{partial "imgUrl" (dict "img" .Params.leistungen.bild "params " "c_scale,w_700 " )}}" />
+        <img src="{{partial "imgUrl" (dict "img" .Params.leistungen.bild "params " "c_scale,w_700" )}}" />
       </div>
       <div class="column">
         {{ .Params.leistungen.content | safeHTML }}
@@ -32,7 +31,7 @@
       {{ range .Params.ausfuhrungen.ausfuhrungen }}
       <div class="column imgcol">
         <a href="/referenzen">
-          <img src="{{partial "imgUrl" (dict "img" .bild "params " "c_scale,w_360 " )}}" />
+          <img src="{{partial "imgUrl" (dict "img" .bild "params " "c_scale,w_360" )}}" />
           <div class="label">{{.titel}}</div>
         </a>
       </div>

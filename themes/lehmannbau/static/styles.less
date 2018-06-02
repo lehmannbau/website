@@ -14,6 +14,26 @@ body{
 h1,h2,h3,h4{
   font-family: 'Open Sans', sans-serif;
 }
+.dw{
+  position:absolute;
+  top:0;
+  left:50vw;
+  .dl{
+    width:0;
+    height:0;
+    border-top:3vh solid @green;
+    border-left:20vw solid transparent;
+    margin-left:-20vw;
+    position:absolute;
+  }
+  .dr{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:3vh solid @green;
+    border-right:20vw solid transparent;
+  }
+}
 .standard{
   h1{
     color:@green;
@@ -38,21 +58,15 @@ h1,h2,h3,h4{
 }
 #headermenu{
   display:block;
-  height:0;
-  overflow:hidden;
-  @media only screen and (max-width: 767px) {
-    margin-top:0.5rem;
-  }
-  &.open{
-    height:auto;
-  }
   .container{
     display:flex;
     justify-content:flex-end;
+    align-items:flex-start;
+    flex-direction:column;
   }
   
   a{
-    color:white;
+    color:@green;
     font-size:0.9rem;
     margin:0.5rem 0;
     padding: 0 0.5rem;
@@ -121,17 +135,17 @@ footer{
   }
 }
 header{
-  background:@grey_dark;
+  background:white;
   padding:2rem 0;
   @media only screen and (max-width: 767px) {
     padding:1rem 0 0.5rem 0;
   }
+  .logocol{
+    text-align:center;
+  }
   .logo{
-    max-width:40%;
-    max-height:20vh;
+    margin:3rem 0;
     @media only screen and (max-width: 767px) {
-      max-height:auto;
-      max-width:40vw;
     }
   }
   > .ui.container{
@@ -141,33 +155,31 @@ header{
   }
   .contacts{
     @media only screen and (max-width: 767px) {
-      width:50%;
-      min-width:50%;
+      
     }
-    min-width:200px;
-    .item{
-      .content{
-        .header{
-          display:flex;
-          justify-content:space-between;
-          align-items:center;
-          color:white!important;
-          font-weight:normal!important; 
-          i{
-            margin-left:1rem;
-          }
-        }
+    display:flex;
+      justify-content:flex-end;
+      align-items:flex-end;
+      flex-direction:column;
+    ul{
+      height:100%;
+      display:flex;
+      justify-content:flex-end;
+      align-items:flex-end;
+      flex-direction:column;
+      margin:0;
+      padding:0;
+      color:@grey;
+      li{
+        list-style-type:none;
       }
-    }
-    .ui.list .list>.item a.header:hover, .ui.list>.item a.header:hover{
-      color:white!important;
     }
   }
 }
 
 .home_topteaser{
   position:relative;
-  min-height:200px;
+  min-height:40vh;
   padding:10vh 0;
   .titles{
     h2{
@@ -191,6 +203,26 @@ header{
       font-size:1.5rem;
       font-weight:normal;
     }
+  }
+}
+.home_about{
+  padding:4rem 0;
+  position:relative;
+  h1{
+    color:@green;
+    text-align:center;
+    font-size:1.2rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  h2{
+    text-align:center;
+  }
+  .dl{
+    border-top:3vh solid @grey_light;
+  }
+  .dr{
+    border-top:3vh solid @grey_light;
   }
 }
 

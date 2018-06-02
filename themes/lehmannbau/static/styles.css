@@ -12,6 +12,26 @@ h3,
 h4 {
   font-family: 'Open Sans', sans-serif;
 }
+.dw {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+}
+.dw .dl {
+  width: 0;
+  height: 0;
+  border-top: 3vh solid #cad51d;
+  border-left: 20vw solid transparent;
+  margin-left: -20vw;
+  position: absolute;
+}
+.dw .dr {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 3vh solid #cad51d;
+  border-right: 20vw solid transparent;
+}
 .standard h1 {
   color: #cad51d;
   text-transform: uppercase;
@@ -36,23 +56,15 @@ h4 {
 }
 #headermenu {
   display: block;
-  height: 0;
-  overflow: hidden;
-}
-@media only screen and (max-width: 767px) {
-  #headermenu {
-    margin-top: 0.5rem;
-  }
-}
-#headermenu.open {
-  height: auto;
 }
 #headermenu .container {
   display: flex;
   justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
 }
 #headermenu a {
-  color: white;
+  color: #cad51d;
   font-size: 0.9rem;
   margin: 0.5rem 0;
   padding: 0 0.5rem;
@@ -118,7 +130,7 @@ footer .column.kont a {
   color: #4c4c52;
 }
 header {
-  background: #777777;
+  background: white;
   padding: 2rem 0;
 }
 @media only screen and (max-width: 767px) {
@@ -126,15 +138,11 @@ header {
     padding: 1rem 0 0.5rem 0;
   }
 }
-header .logo {
-  max-width: 40%;
-  max-height: 20vh;
+header .logocol {
+  text-align: center;
 }
-@media only screen and (max-width: 767px) {
-  header .logo {
-    max-height: auto;
-    max-width: 40vw;
-  }
+header .logo {
+  margin: 3rem 0;
 }
 header > .ui.container {
   display: flex;
@@ -142,31 +150,27 @@ header > .ui.container {
   align-items: center;
 }
 header .contacts {
-  min-width: 200px;
-}
-@media only screen and (max-width: 767px) {
-  header .contacts {
-    width: 50%;
-    min-width: 50%;
-  }
-}
-header .contacts .item .content .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white!important;
-  font-weight: normal!important;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
 }
-header .contacts .item .content .header i {
-  margin-left: 1rem;
+header .contacts ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  color: #4c4c52;
 }
-header .contacts .ui.list .list > .item a.header:hover,
-header .contacts .ui.list > .item a.header:hover {
-  color: white!important;
+header .contacts ul li {
+  list-style-type: none;
 }
 .home_topteaser {
   position: relative;
-  min-height: 200px;
+  min-height: 40vh;
   padding: 10vh 0;
 }
 .home_topteaser .titles h2 {
@@ -189,6 +193,26 @@ header .contacts .ui.list > .item a.header:hover {
   color: white;
   font-size: 1.5rem;
   font-weight: normal;
+}
+.home_about {
+  padding: 4rem 0;
+  position: relative;
+}
+.home_about h1 {
+  color: #cad51d;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+.home_about h2 {
+  text-align: center;
+}
+.home_about .dl {
+  border-top: 3vh solid #f0f0f0;
+}
+.home_about .dr {
+  border-top: 3vh solid #f0f0f0;
 }
 .home_services {
   margin-top: 4rem;
