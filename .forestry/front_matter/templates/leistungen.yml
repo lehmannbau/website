@@ -4,6 +4,8 @@ is_partial: false
 fields:
 - type: text
   default: Titel
+  label: Titel
+  name: titel
 - type: file
   label: Bild oben
   name: bild_oben
