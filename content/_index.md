@@ -19,15 +19,15 @@ leistungen:
   hintergrund: "/uploads/fotolia_36158202_sw.jpg"
   leistungen:
   - titel: Gartengestaltung
-    icon: "/uploads/logo.png"
+    icon: "/uploads/2018/06/02/logo_lehmannbau.png"
     content: "<p>Pflasterbau, Mauerbau, Zaunbau, Terrassenbau, Rollrasen, Pflanzenhandel,
       Gartenneuanlagen und -Planung ...</p>"
   - titel: Innenausbau
-    icon: "/uploads/logo.png"
+    icon: "/uploads/2018/06/02/logo_lehmannbau.png"
     content: "<p>Bodenverlegung, Wandgestaltung, Rigipskonstruktionen, Isolierung,
       Treppenbau, Industrieböden ...</p>"
   - titel: Massivbau
-    icon: "/uploads/logo.png"
+    icon: "/uploads/2018/06/02/logo_lehmannbau.png"
     content: "<p>Bodenplatte, Rohbau, Hochbau, Garagen, Holzbau, schlüsselfertiges
       Bauen, Projektbegleitung...</p>"
 seo_description: test
