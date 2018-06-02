@@ -4,6 +4,9 @@ is_partial: false
 fields:
 - type: text
   default: Titel
+- type: file
+  label: Bild oben
+  name: bild_oben
 - type: field_group_list
   name: leistungen
   label: Leistungen
