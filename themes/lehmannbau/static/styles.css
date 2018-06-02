@@ -1,19 +1,19 @@
 body {
-  font-family: "Arial Narrow", Arial, Helvetica, sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
   color: #4c4c52;
   background: white;
 }
 body *:not(i) {
-  font-family: "Arial Narrow", Arial, Helvetica, sans-serif !important;
+  font-family: 'Open Sans', sans-serif important;
 }
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .standard h1 {
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
   margin: 2rem 0;
   font-weight: normal;
@@ -63,7 +63,7 @@ h4 {
   border: none!important;
 }
 #headermenu a.active {
-  color: #006e94;
+  color: #cad51d;
 }
 footer {
   position: relative;
@@ -93,7 +93,7 @@ footer .footermenu a:last-child {
   border: none!important;
 }
 footer .cont1 {
-  border-left: 1px solid #006e94;
+  border-left: 1px solid #cad51d;
 }
 @media only screen and (max-width: 767px) {
   footer .cont1 {
@@ -101,11 +101,11 @@ footer .cont1 {
   }
 }
 footer h2 {
-  color: #006e94;
+  color: #cad51d;
   font-size: 1.2rem;
 }
 footer .column.kont h2 {
-  color: #006e94;
+  color: #cad51d;
   font-size: 1.2rem;
 }
 footer .column.kont img {
@@ -118,7 +118,7 @@ footer .column.kont a {
   color: #4c4c52;
 }
 header {
-  background: #8e9faf;
+  background: #777777;
   padding: 2rem 0;
 }
 @media only screen and (max-width: 767px) {
@@ -164,23 +164,6 @@ header .contacts .ui.list .list > .item a.header:hover,
 header .contacts .ui.list > .item a.header:hover {
   color: white!important;
 }
-.vtitle {
-  transform: rotate(-90deg);
-  min-width: 200px;
-  margin-left: -50px;
-  position: absolute;
-  text-align: center;
-  bottom: 50%;
-  left: 0;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  letter-spacing: 0.2rem;
-}
-@media only screen and (max-width: 767px) {
-  .vtitle {
-    display: none;
-  }
-}
 .home_topteaser {
   position: relative;
   min-height: 200px;
@@ -199,34 +182,13 @@ header .contacts .ui.list > .item a.header:hover {
   line-height: 1.1em;
   margin: 0;
   padding: 0;
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
 }
 .home_topteaser .titles h4 {
   color: white;
   font-size: 1.5rem;
   font-weight: normal;
-}
-.home_strk {
-  position: relative;
-  min-height: 200px;
-  color: white;
-}
-.home_strk .vtitle {
-  color: white;
-}
-.home_strk h2 {
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 3em;
-}
-.home_strk .column {
-  color: white;
-}
-.home_strk .column ul {
-  padding-left: 1em;
-  margin-top: 0;
 }
 .home_services {
   margin-top: 4rem;
@@ -244,7 +206,7 @@ header .contacts .ui.list > .item a.header:hover {
 }
 .home_services h2 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
   font-size: 2.2rem;
 }
@@ -255,115 +217,6 @@ header .contacts .ui.list > .item a.header:hover {
 .home_services ul {
   margin: 0;
   padding-left: 1em;
-}
-.home_ausf {
-  margin-top: 2rem;
-  position: relative;
-  min-height: 200px;
-}
-.home_ausf h2 {
-  line-height: 3em;
-  background: #e9edf0;
-  text-align: center;
-  color: #006e94;
-  text-transform: uppercase;
-}
-.home_ausf .imgcol {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.home_ausf .imgcol img {
-  max-width: 80%;
-}
-.home_ausf .imgcol .label {
-  color: #006e94;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.2rem;
-}
-.home_ausf .knz .label {
-  color: #4c4c52;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.6rem;
-}
-.home_ausf .knz .year {
-  color: #006e94;
-  font-size: 10rem;
-  font-weight: bold;
-  letter-spacing: -0.05em;
-  line-height: 10rem;
-  text-align: center;
-}
-@media only screen and (max-width: 767px) {
-  .home_ausf .knz .year {
-    font-size: 5rem;
-    line-height: 5rem;
-    letter-spacing: -0.025em;
-  }
-}
-.home_about {
-  margin-top: 4rem;
-  background: #e9edf0;
-  position: relative;
-  min-height: 200px;
-  padding: 2rem 0;
-}
-@media only screen and (max-width: 767px) {
-  .home_about {
-    margin-top: 0rem;
-  }
-}
-.home_about .vtitle {
-  margin-left: -65px;
-}
-.home_about .imgcol img {
-  width: 100%;
-  margin: -4rem 0 0 0;
-}
-.home_about h1 {
-  font-weight: normal;
-  color: #006e94;
-  text-transform: uppercase;
-  font-size: 2.2rem;
-}
-.home_about h1 em {
-  color: #4c4c52;
-  font-style: normal;
-}
-.home_about h3 {
-  font-weight: normal;
-  color: #006e94;
-  font-size: 1.8rem;
-}
-.home_about h4 {
-  margin: 1rem 0;
-}
-.home_about strong {
-  color: #006e94;
-}
-.home_about .expbox {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin-top: -3rem;
-}
-.home_about .expbox .years {
-  font-size: 8rem;
-  color: #006e94;
-  font-weight: bold;
-  line-height: 0.8em;
-  letter-spacing: -10px;
-  margin-right: 20px;
-}
-.home_about .expbox .txt {
-  font-size: 2rem;
-  line-height: 1em;
-}
-.home_about .expbox .txt p {
-  line-height: 1em;
 }
 .about_about {
   position: relative;
@@ -380,7 +233,7 @@ header .contacts .ui.list > .item a.header:hover {
 }
 .about_about h1 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
   font-size: 2.2rem;
   text-align: center;
@@ -403,18 +256,18 @@ header .contacts .ui.list > .item a.header:hover {
   margin: 1rem 0;
 }
 .about_about strong {
-  color: #006e94;
+  color: #cad51d;
 }
 .about_about h3 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   font-size: 1.8rem;
 }
 .about_data {
   position: relative;
   padding: 2rem 0;
   margin-top: 2rem;
-  background: #e9edf0;
+  background: #f0f0f0;
 }
 .about_data .knz .label {
   color: #4c4c52;
@@ -423,7 +276,7 @@ header .contacts .ui.list > .item a.header:hover {
   font-size: 1.6rem;
 }
 .about_data .knz .year {
-  color: #006e94;
+  color: #cad51d;
   font-size: 10rem;
   font-weight: bold;
   letter-spacing: -0.05em;
@@ -450,7 +303,7 @@ header .contacts .ui.list > .item a.header:hover {
 }
 .about_team h2 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
   font-size: 2.2rem;
   text-align: center;
@@ -466,7 +319,7 @@ header .contacts .ui.list > .item a.header:hover {
   font-style: normal;
 }
 .about_team .label {
-  color: #006e94;
+  color: #cad51d;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -502,7 +355,7 @@ header .contacts .ui.list > .item a.header:hover {
   }
 }
 .about_st {
-  background: #e9edf0;
+  background: #f0f0f0;
   position: relative;
   min-height: 200px;
   padding: 2rem 20vw;
@@ -516,11 +369,11 @@ header .contacts .ui.list > .item a.header:hover {
   text-align: center;
 }
 .about_st .oss {
-  color: #006e94;
+  color: #cad51d;
   font-weight: bold;
   font-size: 1.8rem;
   padding: 0.5rem 1rem;
-  border: 1px solid #006e94;
+  border: 1px solid #cad51d;
   min-height: 6.5rem;
   display: flex;
   justify-content: center;
@@ -528,7 +381,7 @@ header .contacts .ui.list > .item a.header:hover {
 }
 .about_st h2 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
   font-size: 2.2rem;
   text-align: center;
@@ -553,7 +406,7 @@ header .contacts .ui.list > .item a.header:hover {
 }
 .contact h1 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
   font-size: 2.2rem;
   text-align: center;
@@ -576,11 +429,11 @@ header .contacts .ui.list > .item a.header:hover {
   margin: 1rem 0;
 }
 .contact strong {
-  color: #006e94;
+  color: #cad51d;
 }
 .contact h3 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   font-size: 1.8rem;
 }
 .references {
@@ -598,7 +451,7 @@ header .contacts .ui.list > .item a.header:hover {
 }
 .references h1 {
   font-weight: normal;
-  color: #006e94;
+  color: #cad51d;
   text-transform: uppercase;
   font-size: 2.2rem;
   text-align: center;
@@ -623,9 +476,9 @@ header .contacts .ui.list > .item a.header:hover {
   cursor: pointer;
   padding: 0.5rem 1rem;
   color: white;
-  background: #006e94;
+  background: #cad51d;
   list-style: none;
-  border: 1px solid #006e94;
+  border: 1px solid #cad51d;
   margin-bottom: 1rem;
 }
 @media only screen and (max-width: 767px) {
@@ -634,7 +487,7 @@ header .contacts .ui.list > .item a.header:hover {
   }
 }
 .references .filterlist li.active {
-  color: #006e94;
+  color: #cad51d;
   background: white;
 }
 .references .reflist {
@@ -642,13 +495,13 @@ header .contacts .ui.list > .item a.header:hover {
   padding: 0;
 }
 .references .reflist li:nth-child(odd) {
-  background: #e9edf0;
+  background: #f0f0f0;
 }
 .references .reflist li {
   padding: 2rem 0;
 }
 .references .reflist h3 {
-  color: #006e94;
+  color: #cad51d;
   margin: 0 0 2rem 0;
 }
 .references .reflist .imgcol img {
