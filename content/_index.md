@@ -18,6 +18,10 @@ leistungen:
   content: ''
   hintergrund: "/uploads/fotolia_36158202_sw.jpg"
   leistungen:
+  - titel: Gartengestaltung
+    icon: "/uploads/logo.png"
+    content: "<p>Pflasterbau, Mauerbau, Zaunbau, Terrassenbau, Rollrasen, Pflanzenhandel,
+      Gartenneuanlagen und -Planung ...</p>"
   - titel: Innenausbau
     icon: "/uploads/logo.png"
     content: "<p>Bodenverlegung, Wandgestaltung, Rigipskonstruktionen, Isolierung,
