@@ -10,6 +10,8 @@ type = "page"
 [menu.main]
 weight = 2
 [[referenzen]]
+bezeichnung = "Neubau Doppelhaushälfte Langquaid"
+[[referenzen]]
 bezeichnung = "Gartengestaltung Wohnanlage Straubing"
 bilder = ["/uploads/IMG_9819.jpg", "/uploads/IMG_9826.jpg", "/uploads/IMG_9823.jpg", "/uploads/IMG_9825.jpg", "/uploads/IMG_9820.jpg"]
 content = "<ul><li><p>Premiumrollrasen</p></li><li><p>Thuja Smaragd Hecke</p></li><li><p>Pflasterarbeiten</p></li></ul>"
