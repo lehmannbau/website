@@ -2,7 +2,6 @@
 bild_oben = "/uploads/fotolia_145564175.jpg"
 date = "2018-06-02T13:48:54+02:00"
 seo_description = ""
-titel = "Unsere Leistungen"
 title = "Leistungen"
 layout = "leistungen"
 type = "page"
