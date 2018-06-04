@@ -1,6 +1,6 @@
 +++
 bild_oben = "/uploads/fotolia_36158202_sw.jpg"
-content = "<p>Bilder sagen mehr als tausend Worte, hier finden Sie Auswahl unserer bereits fertiggestellten Referenzen. <br>Die Wohnungen / Häuser / Gärten  im Raum Regensburg, Landshut, Straubing, Deggendorf und Ingolstadt können Sie gerne nach Absprache auch vor Ort besichtigen.</p>"
+content = "<p>Bilder sagen mehr als tausend Worte, hier finden Sie Auswahl unserer bereits fertiggestellten Referenzen. <br></p><p>Die Wohnungen / Häuser / Gärten  im Raum Regensburg, Landshut, Straubing, Deggendorf und Ingolstadt können Sie gerne nach Absprache auch vor Ort besichtigen.</p>"
 date = "2018-05-25T09:48:38+02:00"
 layout = "referenzen"
 seo_description = ""
