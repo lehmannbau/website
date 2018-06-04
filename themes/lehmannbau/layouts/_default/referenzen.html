@@ -1,6 +1,35 @@
 {{ define "main" }}
-<div class="services_page">
-  <div class="services_topimage" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_oben "params" "c_scale,h_400" )}}) center center; background-size:cover">
+<script type="text/javascript">
+  $(function () {
+    $('.imggal img').click(function (el) {
+      var mid = el.currentTarget.dataset.modal;
+      $('#modal_' + mid).modal({ inverted: true }).modal('show');
+      $('#gal_' + mid).slippry({
+        // general elements & wrapper
+        slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+        // options
+        adaptiveHeight: false, // height of the sliders adapts to current slide
+        start: 'random', // num (starting from 1), random
+        loop: true, // first -> last & last -> first arrows
+        captionsSrc: 'li',
+        captions: 'custom', // Position: overlay, below, custom, false
+        captionsEl: '.external-captions',
+
+        // transitions
+        transition: 'fade', // fade, horizontal, kenburns, false
+        easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+        continuous: false,
+
+        // slideshow
+        auto: true,
+        pager: false,
+      });
+    });
+  });
+</script>
+<div class="references_page sub">
+  <div class="sub_topimage" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_oben "params" "c_scale,h_400" )}}) center center; background-size:cover">
 
   </div>
   <div class="ui container titlecontainer">
@@ -10,39 +39,58 @@
       <div class="dr"></div>
     </div>
   </div>
-  <div class="services_list">
-    <div class="ui grid">
-      {{ range $i,$p := .Params.leistungen }} {{if not (modBool $i 2)}}
-      <div class="row odd">
-        <div class="two wide column"></div>
-        <div class="eight wide column content">
-          <h3>{{.titel}}</h3>
+  <div class="ui container content_oben">
+    {{ .Params.content | safeHTML }}
+  </div>
+  <div class="references_list">
+    {{ range $i,$p := .Params.referenzen }} {{ $md5R := md5 .bezeichnung}}{{if not (modBool $i 2)}}
+    <div class="ui container odd">
+      <div class="ui grid">
+        <div class="six wide column content">
+          <h3>{{.bezeichnung}}</h3>
           <div>{{ .content | safeHTML }}</div>
-          <div class="iconwrap">
-            <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
-            <div class="d1"></div>
-            <div class="d2"></div>
-          </div>
         </div>
-        <div class="six wide column " style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) right -20px bottom no-repeat; background-size:contain">
+        <div class="ten wide column imggal">
+          {{ range $x,$img := .bilder }} {{if eq $x 0}}
+          <img data-modal="{{$md5R}}" class="bimg" src="{{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_400" )}}"
+          /> {{end}}{{end}} {{ range $x,$img := .bilder }} {{if gt $x 0}}
+          <img data-modal="{{$md5R}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_200" )}}"
+          /> {{end}}{{end}}
         </div>
       </div>
-      {{else}}
-        <div class="row">
-          <div class="six wide column" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) -20px bottom no-repeat; background-size:contain">
-          </div>
-          <div class="eight wide column content">
-            <h3>{{.titel}}</h3>
-            <div>{{ .content | safeHTML }}</div>
-            <div class="iconwrap">
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
-              <div class="d1"></div>
-              <div class="d2"></div>
+      <div class="ui modal" id="modal_{{$md5R}}">
+        <div class="header">{{.bezeichnung}}</div>
+        <div class="content">
+          <ul id="gal_{{$md5R}}" class="imggalslider sy-slides-crop">
+            {{ range $x,$img := .bilder }}
+            <li>
+              <a href="#slide_{{$md5R}}_{{$x}}">
+                <img src="{{partial "imgUrl" (dict "img" $img "params" "f_auto" )}} " />
+              </a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {{else}}
+      <div class="refwrap even ">
+        <div class="ui container even ">
+          <div class="ui grid ">
+            <div class="ten wide column imggal ">
+              {{ range $x,$img := .bilder }} {{if eq $x 0}}
+              <img data-modal=" {{$md5R}} " class="bimg " src=" {{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_400" )}} "
+              /> {{end}}{{end}} {{ range $x,$img := .bilder }} {{if gt $x 0}}
+              <img data-modal=" {{$md5R}} " class="simg " src=" {{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_200" )}} "
+              /> {{end}}{{end}}
+            </div>
+            <div class="six wide column content ">
+              <h3>{{.bezeichnung}}</h3>
+              <div>{{ .content | safeHTML }}</div>
             </div>
           </div>
-          <div class="two wide column"></div>
         </div>
-        {{end}} {{end}}
-    </div>
+      </div>
+      {{end}} {{end}}
   </div>
   {{ end }}

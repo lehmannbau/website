@@ -10,8 +10,8 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/semantic.min.css">
   <link rel="stylesheet" href="{{ $.Site.BaseURL }}/styles.css">
-  <link rel="shortcut icon" href="{{ $.Site.BaseURL }}/favicon.png" type="image/x-icon">
-  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/jquery.min.js"></script> {{ partial "meta.html" . }}
+  <link rel="shortcut icon" href="{{ $.Site.BaseURL }}/favicon.png" type="image/x-icon"> {{ partial "meta.html" . }}
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/jquery.min.js"></script>
 </head>
 
 <body>
@@ -20,6 +20,10 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/semantic.min.js"></script>
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/slippry.min.js"></script>
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/slippry.min.css">
 </body>
 
 </html>
