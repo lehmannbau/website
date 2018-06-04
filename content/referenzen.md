@@ -8,7 +8,7 @@ titel = "Referenzen"
 title = "Referenzen"
 type = "page"
 [menu.main]
-weight = 2
+weight = 3
 [[referenzen]]
 bezeichnung = "Gartensanierung Abensberg"
 bilder = ["/uploads/IMG_0300.jpeg", "/uploads/IMG_0303.jpeg", "/uploads/IMG_0298.jpeg", "/uploads/IMG_0302.jpeg", "/uploads/IMG_0299.jpeg"]

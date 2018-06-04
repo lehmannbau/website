@@ -10,6 +10,6 @@ titel_links_hochkant = "Adresse"
 title = "Kontakt"
 type = "page"
 [menu.main]
-weight = 4
+weight = 5
 
 +++

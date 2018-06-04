@@ -4,5 +4,7 @@ layout = "ueber-uns"
 seo_description = ""
 title = "Über uns"
 type = "page"
+[menu.main]
+weight = 5
 
 +++
