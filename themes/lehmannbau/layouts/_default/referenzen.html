@@ -1,61 +1,48 @@
 {{ define "main" }}
-<div class="references">
-  <div class="ui container">
-    <h1>{{ .Params.title }}</h1>
-    <ul class="filterlist">
-      <li data-cat="{{md5 "Nacktdach"}}" class="filter-{{md5 "Nacktdach"}}">
-        Nacktdach
-      </li>
-      <li data-cat="{{md5 "Gründach"}}" class="filter-{{md5 "Gründach"}}">Gründach</li>
-      <li data-cat="{{md5 "Sanierung"}}" class="filter-{{md5 "Sanierung"}}">Sanierung</li>
-      <li data-cat="{{md5 "Kies / Fliesen / Holz"}}" class="filter-{{md5 "Kies / Fliesen / Holz"}}">Kies / Fliesen / Holz</li>
-      <li data-cat="{{md5 "Balkon / Terrasse / Garage"}}" class="filter-{{md5 "Balkon / Terrasse / Garage"}}">Balkon / Terrasse / Garage</li>
-      <li data-cat="{{md5 "Gewerbe / Industrie"}}" class="filter-{{md5 "Gewerbe / Industrie"}}">Gewerbe / Industrie</li>
-    </ul>
+<div class="services_page">
+  <div class="services_topimage" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_oben "params" "c_scale,h_400" )}}) center center; background-size:cover">
+
   </div>
-  <ul class="reflist">
-    {{ range .Params.referenzen }}
-    <li class="
-    {{ if .nacktdach }}
-      {{md5 "Nacktdach"}}
-    {{ end }}
-    {{ if .gruendach }}
-      {{md5 "Gründach"}}
-    {{ end }}
-    {{ if .sanierung }}
-      {{md5 "Sanierung"}}
-    {{ end }}
-    {{ if .kies_fliesen_holz }}
-      {{md5 "Kies / Fliesen / Holz"}}
-    {{ end }}
-    {{ if .balkon_terrasse_garage }}
-      {{md5 "Balkon / Terrasse / Garage"}}
-    {{ end }}
-    {{ if .gewerbe_industrie }}
-      {{md5 "Gewerbe / Industrie"}}
-    {{ end }}
-    ">
-      <div class="ui container">
-        <h3>{{ .bezeichnung }}</h3>
-        <div class="ui stackable grid">
-          {{ range .bilder }}
-          <div class="imgcol eight wide column">
-            <img src="{{partial "imgUrl" (dict "img" . "params" "c_scale,w_700" )}}" />
+  <div class="ui container titlecontainer">
+    <h1>{{ .Params.titel }}</h1>
+    <div class="dw">
+      <div class="dl"></div>
+      <div class="dr"></div>
+    </div>
+  </div>
+  <div class="services_list">
+    <div class="ui grid">
+      {{ range $i,$p := .Params.leistungen }} {{if not (modBool $i 2)}}
+      <div class="row odd">
+        <div class="two wide column"></div>
+        <div class="eight wide column content">
+          <h3>{{.titel}}</h3>
+          <div>{{ .content | safeHTML }}</div>
+          <div class="iconwrap">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
+            <div class="d1"></div>
+            <div class="d2"></div>
           </div>
-          {{ end }}
+        </div>
+        <div class="six wide column " style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) right -20px bottom no-repeat; background-size:contain">
         </div>
       </div>
-    </li>
-    {{ end }}
-  </ul>
-</div>
-<script type="text/javascript">
-  $(function () {
-    $('.filterlist li').click(function (el) {
-      $('.reflist li').hide();
-      $('.' + el.currentTarget.dataset.cat).fadeIn(1000);
-      $('.filterlist li').removeClass('active');
-      $('.filterlist li.filter-' + el.currentTarget.dataset.cat).addClass('active');
-    });
-  });
-</script> {{ end }}
+      {{else}}
+        <div class="row">
+          <div class="six wide column" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) -20px bottom no-repeat; background-size:contain">
+          </div>
+          <div class="eight wide column content">
+            <h3>{{.titel}}</h3>
+            <div>{{ .content | safeHTML }}</div>
+            <div class="iconwrap">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
+              <div class="d1"></div>
+              <div class="d2"></div>
+            </div>
+          </div>
+          <div class="two wide column"></div>
+        </div>
+        {{end}} {{end}}
+    </div>
+  </div>
+  {{ end }}

@@ -13,24 +13,34 @@
   <div class="services_list">
     <div class="ui grid">
       {{ range $i,$p := .Params.leistungen }} {{if not (modBool $i 2)}}
-      <div class="row">
-        <div class="six wide column" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) center center; background-size:cover">
-        </div>
-        <div class="eight wide column">
+      <div class="row odd">
+        <div class="two wide column"></div>
+        <div class="eight wide column content">
           <h3>{{.titel}}</h3>
           <div>{{ .content | safeHTML }}</div>
+          <div class="iconwrap">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
+            <div class="d1"></div>
+            <div class="d2"></div>
+          </div>
         </div>
-        <div class="two wide column">2</div>
+        <div class="six wide column " style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) right -20px bottom no-repeat; background-size:contain">
+        </div>
       </div>
       {{else}}
         <div class="row">
-          <div class="two wide column"></div>
-          <div class="eight wide column">
+          <div class="six wide column" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) -20px bottom no-repeat; background-size:contain">
+          </div>
+          <div class="eight wide column content">
             <h3>{{.titel}}</h3>
             <div>{{ .content | safeHTML }}</div>
+            <div class="iconwrap">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
+              <div class="d1"></div>
+              <div class="d2"></div>
+            </div>
           </div>
-          <div class="six wide column" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) center center; background-size:cover">
-          </div>
+          <div class="two wide column"></div>
         </div>
         {{end}} {{end}}
     </div>

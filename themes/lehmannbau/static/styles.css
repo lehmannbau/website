@@ -554,3 +554,58 @@ header .contacts ul li {
   text-align: center;
   text-transform: uppercase;
 }
+.services_page .services_list .iconwrap {
+  position: absolute;
+  top: 10%;
+  left: -30px;
+  height: 80%;
+}
+.services_page .services_list .iconwrap img {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+.services_page .services_list .iconwrap .d1 {
+  height: calc(20%);
+  top: 0;
+  border-right: 1px solid #4c4c52;
+  position: absolute;
+}
+.services_page .services_list .iconwrap .d2 {
+  height: calc(20%);
+  bottom: 0;
+  border-right: 1px solid #4c4c52;
+  position: absolute;
+}
+.services_page .services_list .odd {
+  background: #f0f0f0;
+}
+.services_page .services_list .odd .column.content {
+  padding: 3rem 60px 3rem 0;
+}
+.services_page .services_list .odd .iconwrap {
+  right: -30px !important;
+  left: auto;
+}
+.services_page .row {
+  padding: 0 !important;
+}
+.services_page .row .column.content {
+  position: relative;
+  padding: 3rem 0 3rem 60px;
+}
+.services_page .row .column.content h3 {
+  text-transform: uppercase;
+}
+.services_page .row .column.content ul {
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 2em;
+}
+.services_page .row .column.content ul li {
+  margin-left: 1em;
+  font-size: 1.2rem;
+}
