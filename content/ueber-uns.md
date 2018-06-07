@@ -11,6 +11,10 @@ untertitel = "Qualität, Professionalität, Innovation - das sind wir"
 [menu.main]
 weight = 5
 [[bloecke]]
+bild = "/uploads/fotolia_145564175.jpg"
+content = "<p>Was sind Innovationen? Innovationen sind neue Ideen oder Produkte die eine Verbesserung für ein Vorhaben bieten. Wir sind ständig auf der Suche nach neuen Materialen und Trends, dafür besuchen wir für Sie Fachmessen und halten engen Kontakt zu den Herstellen.</p>"
+titel = "Ein Handwerksbetrieb der trotz hohen Preiswettbewerb auf INNOVATION setzt."
+[[bloecke]]
 bild = "/uploads/fotolia_104683960.jpg"
 content = "<p>Alle unsere Mitarbeiter sind Fachkräfte in den jeweiligen Gewerken, teilweise sogar mehrfach ausgebildet. </p><p>Wir bieten den Besten das Beste an - ist unser Motto bei der Mitarbeiterwahl. Ein Betrieb - wie eine Familie, anspruchsvolle Arbeit, regelmäßige Fortbildungen aber auch verdientes Feiern - das machen wir alles zusammen. Fachliche und motivierte Mitarbeiter ist Ihr Garant für ein perfektes Wohngefühl.</p>"
 titel = "Ein Handwerksbetrieb der trotz Fachkräftemangel auf PROFESSIONALITÄT setzt."
