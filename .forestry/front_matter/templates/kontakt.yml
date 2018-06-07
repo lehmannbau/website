@@ -5,9 +5,9 @@ fields:
 - type: text
   name: titel
   label: Titel
-- type: text
-  name: titel_links_hochkant
-  label: Titel links hochkant
+- type: file
+  name: bild_oben
+  label: Bild oben
 - type: textarea
   name: content_links
   label: Content links
@@ -22,9 +22,19 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- type: textarea
+  name: content_unten_links
+  label: Content unten links
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: file
-  name: hintergrund
-  label: Hintergrund
+  name: karte_bild
+  label: Karte Bild
+- type: text
+  name: karte_googlemaps-link
+  label: Karte GoogleMaps-Link
 - type: text
   name: seo_description
   label: SEO Description
