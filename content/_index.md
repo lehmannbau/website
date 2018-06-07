@@ -33,6 +33,6 @@ leistungen:
 seo_description: test
 menu:
   main:
-    weight: 2
+    weight: 1
 
 ---

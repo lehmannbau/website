@@ -7,7 +7,7 @@ titel = "Unsere Leistungen"
 title = "Leistungen"
 type = "page"
 [menu.main]
-weight = 1
+weight = 2
 [[leistungen]]
 content = "<p>Wir sind ihr Partner für Massivhausbau, von der ersten Idee bis hin zur schlüsselfertigen Umsetzung begleiten wir Sie mit unserem Know-How und einem erfahrenen Team. Mauererarbeiten, Spenglerarbeiten und Zimmererarbeiten vom Keller bis zum Dach runden unser Angebot ab.</p><ul><li><p>Bodenplatte</p></li><li><p>Rohbau</p></li><li><p>Hochbau</p></li><li><p>Garagen</p></li><li><p>Holzbau</p></li><li><p>Schlüsselfertiges Bauen</p></li><li><p>Projektbegleitung</p></li></ul>"
 hintergrund = "/uploads/fotolia_110410228.jpg"
