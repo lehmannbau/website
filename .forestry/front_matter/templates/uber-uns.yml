@@ -8,6 +8,9 @@ fields:
 - type: text
   name: untertitel
   label: Untertitel
+- type: file
+  name: bild_oben
+  label: Bild oben
 - type: field_group_list
   name: bloecke
   label: Bloecke
