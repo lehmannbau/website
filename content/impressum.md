@@ -6,25 +6,23 @@ type = "page"
 weight = 2
 
 +++
-PICHLER FLACHDACH GmbH & Co. KG
+Lehmann Bau Gbr 
 
-Dorfstraße 24  
-94209 Regen
+Inhaber: Lehmann Sven und Lehmann Elvira
 
-Büro: +49 \[0\] 9921 7707  
-Fax: +49 \[0\] 9921 6836
+Kleinthalhof 45 
 
-office@pichler-flachdach.de  
-www.pichler-flachdach.de
+93352 Rohr 
 
-USt-IdNr.: DE315750497  
-St.-Nr.: 170/172/58109
+Tel. 0176-64868975 
 
-Registergericht: Deggendorf  
-Handelsregister: HRA 3001
+info@lehmann-bau.com
 
-Geschäftsführer: Stefan Pichler  
-Inhaltlich verantwortlich: Stefan Pichler
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
+
+Ust-IdNr. DE291414143
+
+Amtsgericht Regensburg
 
 Das Unternehmen nimmt nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.
 
