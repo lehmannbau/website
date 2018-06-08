@@ -1,16 +1,35 @@
 {{ define "main" }}
-<div class="contact" style="background:url({{partial "imgUrl" (dict "img" .Params.hintergrund "params" "c_scale,h_600" )}}) left center no-repeat; background-size:contain;">
-  <div class="vtitle">{{.Params.titel_links_hochkant}}</div>
+<div class="contact_page sub">
+  <div class="sub_topimage" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_oben "params" "c_scale,h_400" )}}) center center; background-size:cover">
+
+  </div>
+  <div class="ui container titlecontainer">
+    <h1>{{ .Params.titel }}</h1>
+    <div class="dw">
+      <div class="dl"></div>
+      <div class="dr"></div>
+    </div>
+  </div>
   <div class="ui container">
-    <h1>{{ .Params.titel | safeHTML }}</h1>
-    <div class="ui stackable two column grid">
-      <div class="column">
+    <div class="ui grid stackable two columns">
+      <div class="ui column">
         {{ .Params.content_links | safeHTML }}
       </div>
-      <div class="column">
+      <div class="ui column">
         {{ .Params.content_rechts | safeHTML }}
       </div>
     </div>
   </div>
-</div>
-{{ end }}
+  <div class="bottomg">
+    <div class="ui container">
+      <div class="ui grid stackable two columns">
+        <div class="ui column lc">
+          {{ .Params.content_unten_links | safeHTML }}
+        </div>
+        <a href="{{.Params.karte_googlemaps-link}}" target="_blank" class="ui column rc" style="background:url({{partial "imgUrl" (dict "img" .Params.karte_bild "params" "c_scale,h_400" )}}) center center; background-size:cover">
+
+        </a>
+      </div>
+    </div>
+  </div>
+  {{ end }}

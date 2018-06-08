@@ -12,6 +12,9 @@ h3,
 h4 {
   font-family: 'Open Sans', sans-serif;
 }
+a {
+  color: #cad51d;
+}
 .dw {
   position: absolute;
   top: 0;
@@ -54,6 +57,19 @@ h4 {
   align-items: center;
   height: 100%;
 }
+@media only screen and (max-width: 767px) {
+  .respDesktop {
+    display: none!important;
+  }
+  .titlecontainer {
+    padding: 2rem 0 1rem 0 !important;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .respMobile {
+    display: none!important;
+  }
+}
 #headermenu {
   height: 100%;
   display: flex;
@@ -80,6 +96,11 @@ h4 {
 }
 #headermenu a.active {
   color: #cad51d;
+}
+@media only screen and (max-width: 767px) {
+  #headermenu a {
+    margin: 0.25rem 0;
+  }
 }
 .clearfix {
   display: block;
@@ -146,6 +167,11 @@ header {
 header .logocol {
   text-align: center;
 }
+@media only screen and (max-width: 767px) {
+  header .logo {
+    max-height: 80px;
+  }
+}
 header > .ui.container {
   display: flex;
   justify-content: space-between;
@@ -156,6 +182,11 @@ header .contacts {
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
+}
+@media only screen and (max-width: 767px) {
+  header .contacts {
+    align-items: flex-start !important;
+  }
 }
 header .contacts ul {
   height: 100%;
@@ -169,6 +200,35 @@ header .contacts ul {
 }
 header .contacts ul li {
   list-style-type: none;
+}
+@media only screen and (max-width: 767px) {
+  header .contacts ul {
+    justify-content: flex-start !important;
+  }
+}
+header .mobileHeader {
+  width: 100%;
+  clear: both;
+  float: none;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+header .mobileMenu {
+  width: 100%;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .mobileMenu a {
+  color: #cad51d;
+  margin-left: 0.5rem;
+}
+header .mobileMenu a:first-child {
+  margin: 0;
 }
 .home_topteaser {
   position: relative;
@@ -196,9 +256,19 @@ header .contacts ul li {
   font-size: 1.5rem;
   font-weight: normal;
 }
+@media only screen and (max-width: 767px) {
+  .home_topteaser {
+    min-height: 25vh;
+  }
+}
 .home_about {
   padding: 4rem 0;
   position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .home_about {
+    padding: 2rem 0;
+  }
 }
 .home_about h1 {
   color: #cad51d;
@@ -209,6 +279,11 @@ header .contacts ul li {
 }
 .home_about h2 {
   text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .home_about h2 {
+    font-size: 1.2rem;
+  }
 }
 .home_about .dl {
   border-top: 3vh solid #f0f0f0;
@@ -221,6 +296,11 @@ header .contacts ul li {
   margin-bottom: 5rem;
   position: relative;
   min-height: 200px;
+}
+@media only screen and (max-width: 767px) {
+  .home_services {
+    padding: 2rem 0;
+  }
 }
 .home_services h2 {
   color: white;
@@ -541,7 +621,12 @@ header .contacts ul li {
   width: 100%;
 }
 .sub_topimage {
-  height: 400px;
+  height: 30vh ;
+}
+@media only screen and (max-width: 767px) {
+  .sub_topimage {
+    height: 25vh;
+  }
 }
 .sub .titlecontainer {
   background: white;
@@ -557,6 +642,30 @@ header .contacts ul li {
 .sub .content_oben {
   text-align: center;
   line-height: 1.3rem;
+}
+.references_page .even .content {
+  border-left: 1px solid #777777;
+  padding-left: 2rem!important;
+}
+@media only screen and (max-width: 767px) {
+  .references_page .even .content {
+    border-left: none;
+  }
+}
+.references_page .even .imggal {
+  padding-right: 2rem!important;
+}
+.references_page .odd .content {
+  border-right: 1px solid #777777;
+  padding-right: 2rem!important;
+}
+@media only screen and (max-width: 767px) {
+  .references_page .odd .content {
+    border-right: none;
+  }
+}
+.references_page .odd .imggal {
+  padding-left: 2rem!important;
 }
 .references_page .refwrap.even {
   background: #f0f0f0;
@@ -671,4 +780,41 @@ header .contacts ul li {
 .services_page .row .column.content ul li {
   margin-left: 1em;
   font-size: 1.2rem;
+}
+.about_page h2 {
+  color: #cad51d;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.about_page .blocks_list h3 {
+  color: #cad51d;
+}
+.about_page .blocks_list .row {
+  border-bottom: 1px solid #f0f0f0;
+}
+.about_page .blocks_list .row.last-child {
+  border: none!important;
+}
+.about_page .slogan {
+  margin-top: 3rem;
+  background: #cad51d;
+}
+.about_page .slogan .container {
+  padding: 2rem 0;
+}
+.about_page .slogan blockquote {
+  padding: 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2rem;
+}
+.about_page .slogan blockquote p {
+  text-align: center;
+}
+.about_page .slogan p {
+  text-align: right;
+}
+.contact_page .bottomg {
+  background: #cad51d;
 }

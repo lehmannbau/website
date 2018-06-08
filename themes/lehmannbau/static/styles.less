@@ -14,6 +14,9 @@ body{
 h1,h2,h3,h4{
   font-family: 'Open Sans', sans-serif;
 }
+a{
+  color:@green;
+}
 .dw{
   position:absolute;
   top:0;
@@ -56,6 +59,19 @@ h1,h2,h3,h4{
   align-items:center;
   height:100%;
 }
+@media only screen and (max-width: 767px) {
+  .respDesktop{
+    display:none!important;
+  }
+  .titlecontainer{
+    padding:2rem 0 1rem 0 !important;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .respMobile{
+    display:none!important;
+  }
+}
 #headermenu{
   height:100%;
   display:flex;
@@ -80,6 +96,9 @@ h1,h2,h3,h4{
     }
     &.active{
       color:@green;
+    }
+    @media only screen and (max-width: 767px) {
+      margin:0.25rem 0;
     }
   }
 }
@@ -151,6 +170,7 @@ header{
   }
   .logo{
     @media only screen and (max-width: 767px) {
+      max-height:80px;
     }
   }
   > .ui.container{
@@ -159,13 +179,13 @@ header{
     align-items:center;
   }
   .contacts{
-    @media only screen and (max-width: 767px) {
-      
-    }
     display:flex;
       justify-content:flex-end;
       align-items:flex-end;
       flex-direction:column;
+      @media only screen and (max-width: 767px) {
+        align-items:flex-start!important;
+      }
     ul{
       height:100%;
       display:flex;
@@ -177,6 +197,33 @@ header{
       color:@grey_dark;
       li{
         list-style-type:none;
+      }
+      @media only screen and (max-width: 767px) {
+        justify-content:flex-start!important;
+      }
+    }
+  }
+  .mobileHeader{
+    width:100%;
+    clear:both;
+    float:none;
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+  }
+  .mobileMenu{
+    width:100%;
+    border-top:1px solid @grey_light;
+    margin-top:0.25rem;
+    padding-top:0.25rem;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    a{
+      color:@green;
+      margin-left:0.5rem;
+      &:first-child{
+        margin:0;
       }
     }
   }
@@ -209,9 +256,15 @@ header{
       font-weight:normal;
     }
   }
+  @media only screen and (max-width: 767px) {
+    min-height:25vh;
+  }
 }
 .home_about{
   padding:4rem 0;
+  @media only screen and (max-width: 767px) {
+    padding:2rem 0;
+  }
   position:relative;
   h1{
     color:@green;
@@ -222,6 +275,9 @@ header{
   }
   h2{
     text-align:center;
+    @media only screen and (max-width: 767px) {
+      font-size:1.2rem;
+    }
   }
   .dl{
     border-top:3vh solid @grey_light;
@@ -233,6 +289,9 @@ header{
 
 .home_services{
   padding:4rem 0;
+  @media only screen and (max-width: 767px) {
+    padding:2rem 0;
+  }
   margin-bottom:5rem;
   position:relative;
   @media only screen and (max-width: 767px) {
@@ -544,7 +603,10 @@ header{
   }
 }
 .sub_topimage{
-  height:400px;
+  height:30vh ;
+  @media only screen and (max-width: 767px) {
+    height:25vh;
+  }
 }
 .sub{
   .titlecontainer{
@@ -564,6 +626,30 @@ header{
   }
 }
 .references_page{
+  .even{
+    .content{
+      border-left:1px solid @grey_dark;
+      padding-left:2rem!important;
+      @media only screen and (max-width: 767px) {
+        border-left:none;
+      }
+    }
+    .imggal{
+      padding-right:2rem!important;
+    }
+  }
+  .odd{
+    .content{
+      border-right:1px solid @grey_dark;
+      padding-right:2rem!important;
+      @media only screen and (max-width: 767px) {
+        border-right:none;
+      }
+    }
+    .imggal{
+      padding-left:2rem!important;
+    }
+  }
   .refwrap.even{
       background: @grey_light;
     }
@@ -681,6 +767,52 @@ header{
           font-size:1.2rem;
         }
       }
+    }
+  }
+}
+.about_page{
+  h2{
+    color:@green;
+    text-align:center;
+    font-size:1.2rem;
+  }
+  .blocks_list{
+    h3{
+      color:@green;
+    }
+    .row{
+      border-bottom:1px solid @grey_light;
+      &.last-child{
+        border:none!important;
+      }
+    }
+  }
+  .slogan{
+    margin-top:3rem;
+    background:@green;
+    .container{
+      padding:2rem 0;
+    }
+    blockquote{
+      padding:0;
+      text-align:center;
+      font-style: normal;
+      font-weight:200;
+      font-size:2rem;
+      p{
+        text-align:center;
+      }
+    }
+    p{
+      text-align:right;
+    }
+  }
+}
+.contact_page{
+  .bottomg{
+    background:@green;
+    .lc{
+      
     }
   }
 }

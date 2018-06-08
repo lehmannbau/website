@@ -2,6 +2,7 @@
 <script type="text/javascript">
   $(function () {
     $('.imggal img').click(function (el) {
+      console.log(el.currentTarget.dataset.modal);
       var mid = el.currentTarget.dataset.modal;
       $('#modal_' + mid).modal({ inverted: true }).modal('show');
       $('#gal_' + mid).slippry({
@@ -45,7 +46,7 @@
   <div class="references_list">
     {{ range $i,$p := .Params.referenzen }} {{ $md5R := md5 .bezeichnung}}{{if not (modBool $i 2)}}
     <div class="ui container odd">
-      <div class="ui grid">
+      <div class="ui grid stackable">
         <div class="six wide column content">
           <h3>{{.bezeichnung}}</h3>
           <div>{{ .content | safeHTML }}</div>
@@ -76,17 +77,31 @@
     {{else}}
       <div class="refwrap even ">
         <div class="ui container even ">
-          <div class="ui grid ">
+          <div class="ui grid stackable">
             <div class="ten wide column imggal ">
               {{ range $x,$img := .bilder }} {{if eq $x 0}}
-              <img data-modal=" {{$md5R}} " class="bimg " src=" {{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_400" )}} "
+              <img data-modal="{{$md5R}}" class="bimg " src=" {{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_400" )}} "
               /> {{end}}{{end}} {{ range $x,$img := .bilder }} {{if gt $x 0}}
-              <img data-modal=" {{$md5R}} " class="simg " src=" {{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_200" )}} "
+              <img data-modal="{{$md5R}}" class="simg " src=" {{partial "imgUrl" (dict "img" $img "params" "c_crop,h_800,w_800,g_auto,f_auto/c_scale,h_200" )}} "
               /> {{end}}{{end}}
             </div>
             <div class="six wide column content ">
               <h3>{{.bezeichnung}}</h3>
               <div>{{ .content | safeHTML }}</div>
+            </div>
+          </div>
+          <div class="ui modal" id="modal_{{$md5R}}">
+            <div class="header">{{.bezeichnung}}</div>
+            <div class="content">
+              <ul id="gal_{{$md5R}}" class="imggalslider sy-slides-crop">
+                {{ range $x,$img := .bilder }}
+                <li>
+                  <a href="#slide_{{$md5R}}_{{$x}}">
+                    <img src="{{partial "imgUrl" (dict "img" $img "params" "f_auto" )}} " />
+                  </a>
+                </li>
+                {{end}}
+              </ul>
             </div>
           </div>
         </div>
