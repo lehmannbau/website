@@ -816,5 +816,10 @@ header .mobileMenu a:first-child {
   text-align: right;
 }
 .contact_page .bottomg {
+  margin-top: 2rem;
   background: #cad51d;
+}
+.contact_page .bottomg .lc h3 {
+  font-weight: 200;
+  font-size: 1.8rem;
 }

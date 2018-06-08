@@ -33,7 +33,7 @@ fields:
   name: karte_bild
   label: Karte Bild
 - type: text
-  name: karte_googlemaps-link
+  name: karte_googlemaps_link
   label: Karte GoogleMaps-Link
 - type: text
   name: seo_description
