@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #4c4c52;
   background: white;
-}
+} 
 body *:not(i) {
   font-family: 'Open Sans', sans-serif important;
 }
@@ -492,7 +492,7 @@ header .mobileMenu a:first-child {
   width: 100%;
 }
 .sub_topimage {
-  height: 30vh ;
+  height: 30vh;
 }
 @media only screen and (max-width: 767px) {
   .sub_topimage {
