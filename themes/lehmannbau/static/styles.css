@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #4c4c52;
   background: white;
-} 
+}
 body *:not(i) {
   font-family: 'Open Sans', sans-serif important;
 }
@@ -231,7 +231,7 @@ header .mobileMenu a:first-child {
 }
 .home_topteaser {
   position: relative;
-  min-height: 40vh;
+  min-height: 65vh;
   padding: 10vh 0;
 }
 .home_topteaser .titles h2 {
@@ -263,6 +263,9 @@ header .mobileMenu a:first-child {
 .home_about {
   padding: 4rem 0;
   position: relative;
+}
+.home_about .container {
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .home_about {
