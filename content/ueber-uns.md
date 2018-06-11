@@ -19,7 +19,7 @@ bild = "/uploads/2018/06/11/qualitaet.png"
 content = "<p>Alle von uns verwendeten Produkte von Ziegelstein bis zum Baum in Ihrem Garten sind geprüfte Qualitätsprodukte. Wir zeigen Ihnen die am Markt gegebene Möglichkeiten zur Umsetzung Ihrer Idee an und wählen gemeinsam die beste Alternative aus.</p>"
 titel = "Ein Handwerksbetrieb der trotz der Hochkonjunktur in der Baubranche auf QUALITÄT setzt."
 [[bloecke]]
-bild = "/uploads/2018/06/09/knowhow.png"
+bild = "/uploads/2018/06/11/knowhow.png"
 content = "<p>Was sind Innovationen? Innovationen sind neue Ideen oder Produkte die eine Verbesserung für ein Vorhaben bieten. Wir sind ständig auf der Suche nach neuen Materialen und Trends, dafür besuchen wir für Sie Fachmessen und halten engen Kontakt zu den Herstellen.</p>"
 titel = "Ein Handwerksbetrieb der trotz hohen Preiswettbewerb auf INNOVATION setzt."
 
