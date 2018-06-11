@@ -14,7 +14,7 @@ bezeichnung = "Bauvorhaben Abensberg"
 bilder = ["/uploads/IMG_0300.jpeg", "/uploads/IMG_0303.jpeg", "/uploads/IMG_0298.jpeg", "/uploads/IMG_0302.jpeg", "/uploads/IMG_0299.jpeg"]
 content = "<ul><li><p>Holzterrasse mit Unterkonstruktion</p></li><li><p>Granitblockstufen</p></li><li><p>Gartenmauer mit Kalkstein</p></li></ul>"
 [[referenzen]]
-bezeichnung = "Gartengestaltung Wohnanlage Straubing"
+bezeichnung = "Bauvorhaben Wohnanlage Straubing"
 bilder = ["/uploads/IMG_9819.jpg", "/uploads/IMG_9826.jpg", "/uploads/IMG_9823.jpg", "/uploads/IMG_9825.jpg", "/uploads/IMG_9820.jpg"]
 content = "<ul><li><p>Premiumrollrasen</p></li><li><p>Thuja Smaragd Hecke</p></li><li><p>Pflasterarbeiten</p></li></ul>"
 [[referenzen]]
