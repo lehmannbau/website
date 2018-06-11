@@ -9,7 +9,7 @@ weight = 2
 Lehmann Bau Gbr  
 Inhaber: Lehmann Sven und Lehmann Elvira  
 Kleinthalhof 45  
-93352 Rohr
+93352 Rohr in Niederbayern
 
 Tel. 0176-64868975  
 info@lehmann-bau.com
