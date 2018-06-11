@@ -6,15 +6,15 @@ type = "page"
 weight = 2
 
 +++
-Lehmann Bau Gbr 
+Lehmann Bau Gbr
 
 Inhaber: Lehmann Sven und Lehmann Elvira
 
-Kleinthalhof 45 
+Kleinthalhof 45
 
-93352 Rohr 
+93352 Rohr
 
-Tel. 0176-64868975 
+Tel. 0176-64868975
 
 info@lehmann-bau.com
 
