@@ -27,7 +27,7 @@ leistungen:
     content: "<p>Bodenverlegung, Wandgestaltung, Rigipskonstruktionen, Isolierung,
       Treppenbau, Industrieböden ...</p>"
   - titel: Massivbau
-    icon: "/uploads/2018/06/02/logo_lehmannbau.png"
+    icon: "/uploads/2018/06/11/icon_one.jpg"
     content: "<p>Bodenplatte, Rohbau, Hochbau, Garagen, Holzbau, schlüsselfertiges
       Bauen, Projektbegleitung...</p>"
 seo_description: test
