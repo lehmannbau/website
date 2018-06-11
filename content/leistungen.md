@@ -15,7 +15,7 @@ icon = "/uploads/2018/06/11/icon_klein3.jpg"
 titel = "Massivbau"
 [[leistungen]]
 content = "<p>Für Fliesenlegearbeiten, Trockenbau, Wärme- und Schallisolierung, oder aber das Verlegen von Holzböden und Malerarbeiten haben wir unsere Spezialisten mit Ihrem Fachwissen für Sie vor Ort. Fragen Sie uns einfach!</p><ul><li><p>Bodenverlegung</p></li><li><p>Wandgestaltung</p></li><li><p>Rigipskonstruktionen</p></li><li><p>Isolierung</p></li><li><p>Treppenbau</p></li><li><p>Industrieböden</p></li></ul>"
-hintergrund = "/uploads/2018/06/11/holz.png"
+hintergrund = "/uploads/2018/06/11/holzInnen_neu.png"
 icon = "/uploads/2018/06/11/icon_klein2.jpg"
 titel = "Innenausbau"
 [[leistungen]]
