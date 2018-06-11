@@ -23,7 +23,7 @@ leistungen:
     content: "<p>Pflasterbau, Mauerbau, Zaunbau, Terrassenbau, Rollrasen, Pflanzenhandel,
       Gartenneuanlagen und -Planung ...</p>"
   - titel: Innenausbau
-    icon: "/uploads/2018/06/02/logo_lehmannbau.png"
+    icon: "/uploads/2018/06/11/icon2.jpg"
     content: "<p>Bodenverlegung, Wandgestaltung, Rigipskonstruktionen, Isolierung,
       Treppenbau, Industrieböden ...</p>"
   - titel: Massivbau
