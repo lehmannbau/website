@@ -12,7 +12,7 @@ uber_uns:
     Produzenten unterschiedlicher Qualitätsstandards gekennzeichnet, wir zeigen Ihnen
     die am Markt gegebene Möglichkeiten zur Umsetzung Ihrer Idee an und wählen gemeinsam
     die beste Alternative aus.</p>"
-  hintergrund: "/uploads/fotolia_186947815.jpg"
+  hintergrund: "/uploads/2018/06/11/top.jpg"
 leistungen:
   titel: Unsere Leistungen
   content: ''
