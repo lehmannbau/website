@@ -19,9 +19,9 @@ hintergrund = "/uploads/2018/06/11/holzInnen_neu.png"
 icon = "/uploads/2018/06/11/icon_sw_innen_neu.png"
 titel = "Innenausbau"
 [[leistungen]]
-content = "<p>Ihr Erholungsparadies im Freien - Sie wollen Ihren Garten neu anlegen oder Sanieren?</p><p>Von der Gartenplanung bis hin zur fertigen Umsetzung realisieren wir Ihre Wünsche und Vorstellungen.</p><ul><li><p>Pflasterarbeiten</p></li><li><p>Gartenmauern</p></li><li><p>Zäune</p></li><li><p>Terrassen</p></li><li><p>Rollrasen &amp; Pflanzenhandel</p></li><li><p>Gartenneuanlagen</p></li><li><p>Gartenplanung</p></li></ul>"
+content = "<p>Ihr Erholungsparadies im Freien - Sie wollen Ihren Garten neu anlegen oder sanieren?</p><p>Von der Gartenplanung bis hin zur fertigen Umsetzung realisieren wir Ihre Wünsche und Vorstellungen.</p><ul><li><p>Pflasterarbeiten</p></li><li><p>Gartenmauern</p></li><li><p>Zäune</p></li><li><p>Terrassen</p></li><li><p>Rollrasen &amp; Pflanzenhandel</p></li><li><p>Gartenneuanlagen</p></li><li><p>Gartenplanung</p></li></ul>"
 hintergrund = "/uploads/fotolia_54332492.jpg"
-icon = "/uploads/2018/06/02/logo_lehmannbau.png"
+icon = "/uploads/2018/06/11/icon_sw_garten.png"
 titel = "Gartenbau"
 
 +++
