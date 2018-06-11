@@ -35,6 +35,9 @@ a {
   border-top: 3vh solid #cad51d;
   border-right: 20vw solid transparent;
 }
+.standard {
+  padding-bottom: 1rem;
+}
 .standard h1 {
   color: #cad51d;
   text-transform: uppercase;
