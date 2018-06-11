@@ -2,7 +2,7 @@
 bild_oben = "/uploads/2018/06/11/background.jpg"
 date = "2018-06-02T13:48:54+02:00"
 layout = "leistungen"
-seo_description = ""
+seo_description = "Unsere Leistungen: Massivbau, Innenausbau, Gartenbau im Detail: Bodenplatte, Rohbau, Hochbau, Garagen, Holzbau, Schlüsselfertiges Bauen, Malerarbeiten, Bodenverlegung, Pflasterbau, Terrassenbau uvm"
 titel = "Unsere Leistungen"
 title = "Leistungen"
 type = "page"
