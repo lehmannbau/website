@@ -30,7 +30,9 @@ leistungen:
     icon: "/uploads/2018/06/11/icon_one.jpg"
     content: "<p>Bodenplatte, Rohbau, Hochbau, Garagen, Holzbau, schlüsselfertiges
       Bauen, Projektbegleitung...</p>"
-seo_description: test
+seo_description: 'LEHMANN BAU: Gartengestaltung, Innenausbau, Massivbau: Pflasterarbeiten,
+  Terrassen, Bodenverlegung, Isolierung, Treppenbau, Garagen, Hochbau, Rohbau, Bodenplatte,
+  Holzbau'
 menu:
   main:
     weight: 1
