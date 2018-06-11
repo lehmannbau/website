@@ -11,7 +11,7 @@ weight = 2
 [[leistungen]]
 content = "<p>Wir sind ihr Partner für Massivhausbau, von der ersten Idee bis hin zur schlüsselfertigen Umsetzung begleiten wir Sie mit unserem Know-How und einem erfahrenen Team. Mauererarbeiten, Spenglerarbeiten und Zimmererarbeiten vom Keller bis zum Dach runden unser Angebot ab.</p><ul><li><p>Bodenplatte</p></li><li><p>Rohbau</p></li><li><p>Hochbau</p></li><li><p>Garagen</p></li><li><p>Holzbau</p></li><li><p>Schlüsselfertiges Bauen</p></li><li><p>Projektbegleitung</p></li></ul>"
 hintergrund = "/uploads/fotolia_110410228.jpg"
-icon = "/uploads/2018/06/02/logo_lehmannbau.png"
+icon = "/uploads/2018/06/11/icon_klein3.jpg"
 titel = "Massivbau"
 [[leistungen]]
 content = "<p>Für Fliesenlegearbeiten, Trockenbau, Wärme- und Schallisolierung, oder aber das Verle- gen von Holzböden und Malerarbeiten haben wir unsere Spezialisten mit Ihrem Fachwis- sen für Sie vor Ort. Fragen Sie uns einfach!</p><ul><li><p>Bodenverlegung</p></li><li><p>Wandgestaltung</p></li><li><p>Rigipskonstruktionen</p></li><li><p>Isolierung</p></li><li><p>Treppenbau</p></li><li><p>Industrieböden</p></li></ul>"
