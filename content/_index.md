@@ -16,10 +16,10 @@ uber_uns:
 leistungen:
   titel: Unsere Leistungen
   content: ''
-  hintergrund: "/uploads/fotolia_36158202_sw.jpg"
+  hintergrund: "/uploads/2018/06/11/background.jpg"
   leistungen:
   - titel: Gartengestaltung
-    icon: "/uploads/2018/06/02/logo_lehmannbau.png"
+    icon: "/uploads/2018/06/11/icon_3.jpg"
     content: "<p>Pflasterbau, Mauerbau, Zaunbau, Terrassenbau, Rollrasen, Pflanzenhandel,
       Gartenneuanlagen und -Planung ...</p>"
   - titel: Innenausbau
