@@ -6,26 +6,19 @@ type = "page"
 weight = 2
 
 +++
-Lehmann Bau Gbr
-
-Inhaber: Lehmann Sven und Lehmann Elvira
-
-Kleinthalhof 45
-
+Lehmann Bau Gbr  
+Inhaber: Lehmann Sven und Lehmann Elvira  
+Kleinthalhof 45  
 93352 Rohr
 
-Tel. 0176-64868975
-
+Tel. 0176-64868975  
 info@lehmann-bau.com
 
-Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
-
-Ust-IdNr. DE291414143
-
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:  
+Ust-IdNr. DE291414143  
 Amtsgericht Regensburg
 
 Das Unternehmen nimmt nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.
 
-Design / Konzept
-
+Design / Konzept  
 [elvira.beck | Design](https://elvirabeck-design.de)
