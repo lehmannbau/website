@@ -1,5 +1,5 @@
 +++
-bild_oben = "/uploads/2018/06/09/background.jpg"
+bild_oben = "/uploads/2018/06/11/background.jpg"
 date = "2018-05-25T09:48:59+02:00"
 layout = "ueber-uns"
 seo_description = "Qualität, Professionalität, Innovation - das sind wir Ein Handwerksbetrieb der trotz Fachkräftemangel auf PROFESSIONALITÄT setzt. Ein Handwerksbetrieb der trotz der Hochkonjunktur in der Baubranche auf QUALITÄT setzt. Ein Handwerksbetrieb der trotz hohen Preiswettbewerb auf INNOVATION setzt."
@@ -11,7 +11,7 @@ untertitel = "Qualität, Professionalität, Innovation - das sind wir "
 [menu.main]
 weight = 4
 [[bloecke]]
-bild = "/uploads/2018/06/09/u1.jpg"
+bild = "/uploads/2018/06/11/15-15-Geschossbauziegel.jpg"
 content = "<p>Alle unsere Mitarbeiter sind Fachkräfte in den jeweiligen Gewerken, teilweise sogar mehrfach ausgebildet. </p><p>Wir bieten den Besten das Beste an - ist unser Motto bei der Mitarbeiterwahl. Ein Betrieb - wie eine Familie, anspruchsvolle Arbeit, regelmäßige Fortbildungen aber auch verdientes Feiern - das machen wir alles zusammen. Fachliche und motivierte Mitarbeiter ist Ihr Garant für ein perfektes Wohngefühl.</p>"
 titel = "Ein Handwerksbetrieb der trotz Fachkräftemangel auf PROFESSIONALITÄT setzt."
 [[bloecke]]
