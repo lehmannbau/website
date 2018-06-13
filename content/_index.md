@@ -6,7 +6,7 @@ teaser_oben:
   bild: "/uploads/2018/06/11/lehmann_head.jpg"
 uber_uns:
   content: "<h1>Willkommen bei Lehmann Bau</h1><h2>Wir bauen für Sie im Raum <br>Niederbayern,
-    Oberpfalz und Oberbayern</h2><p>Wir setzten auf Qualität, Professionalität und
+    Oberpfalz und Oberbayern</h2><p>Wir setzen auf Qualität, Professionalität und
     Innovation - Alle von uns verwendeten Produkte vom Ziegelstein bis hin zum Baum
     in Ihrem Garten sind geprüfte Qualitätsprodukte. Die Branche ist heutzutage von
     vielen Produzenten unterschiedlicher Qualitätsstandards gekennzeichnet, wir zeigen
