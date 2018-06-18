@@ -19,7 +19,7 @@ hintergrund = "/uploads/2018/06/11/holzInnen_neu.png"
 icon = "/uploads/2018/06/11/icon_sw_innen_neu.png"
 titel = "INNENAUSBAU/ TROCKENBAU"
 [[leistungen]]
-content = "<p>Für die professionelle Anlage von Grünflächen und Gärten kümmern sich unsere Fachmitarbeiter im Gartenbau. Wir besprechen Ihre Wünsche und Vorstellungen zu der Anlage und beraten Sie zu dem Design, alternativen Möglichkeiten sowie zu den Pflanzenarten die Ihre Anforderungen bestens erfüllen.</p><ul><li><p>Neuanlagen von Garten- und Grünflächen</p></li><li><p>Neuanlagen von öffentlichen Grünflächen nach DIN Normen und</p><p>Vorschriften </p></li><li><p>Zäune</p></li><li><p>Terrassen</p></li><li><p>Mauern</p></li><li><p>Pflasterarbeiten und Wegebau</p></li><li><p>Rollrasen &amp; Pflanzenhandel</p></li></ul>"
+content = "<p>Für die professionelle Anlage von Grünflächen und Gärten kümmern sich unsere Fachmitarbeiter im Gartenbau. Wir besprechen Ihre Wünsche und Vorstellungen zu der Anlage und beraten Sie zu dem Design, alternativen Möglichkeiten sowie zu den Pflanzenarten die Ihre Anforderungen bestens erfüllen.</p><ul><li><p>Neuanlagen von Garten- und Grünflächen</p></li><li><p>Neuanlagen von öffentlichen Grünflächen nach DIN Normen und Vorschriften</p></li><li><p>Zäune</p></li><li><p>Terrassen</p></li><li><p>Mauern</p></li><li><p>Pflasterarbeiten und Wegebau</p></li><li><p>Rollrasen &amp; Pflanzenhandel</p></li></ul>"
 hintergrund = "/uploads/fotolia_54332492.jpg"
 icon = "/uploads/2018/06/11/icon_sw_garten.png"
 titel = "GARTENBAU"
