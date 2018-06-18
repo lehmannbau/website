@@ -89,6 +89,8 @@ a {
 #headermenu a {
   color: #cad51d;
   font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
   margin: 0.5rem 0;
   padding: 0 0.5rem;
   line-height: 0.9rem;
@@ -270,6 +272,15 @@ header .mobileMenu a:first-child {
 .home_about .container {
   text-align: center;
 }
+.home_about .container a {
+  padding: 1rem 2rem;
+  color: white;
+  background: #cad51d;
+  margin: 5rem 0 3rem 0!important;
+  font-size: 1.71428571rem;
+  display: inline-block;
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 767px) {
   .home_about {
     padding: 2rem 0;
@@ -278,8 +289,7 @@ header .mobileMenu a:first-child {
 .home_about h1 {
   color: #cad51d;
   text-align: center;
-  font-size: 1.2rem;
-  letter-spacing: 0.05rem;
+  font-size: 1.71428571rem;
   text-transform: uppercase;
 }
 .home_about h2 {
