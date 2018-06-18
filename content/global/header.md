@@ -7,7 +7,7 @@ kontaktdaten:
   icon: map signs
 - text: info@lehmann-bau.com
   icon: envelope outline
-- text: 0176-64868975
+- text: 08783-9671272
   icon: phone
 
 ---
