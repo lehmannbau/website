@@ -16,8 +16,8 @@ content = "<p>Alle unsere Mitarbeiter sind ausschließlich Fachkräfte! Wir biet
 titel = "Unser Handwerksbetrieb setzt auf PROFESSIONALITÄT."
 [[bloecke]]
 bild = "/uploads/2018/06/11/qualitaet.png"
-content = "<p>Alle von uns verwendeten Produkte von Ziegelstein bis zum Baum in Ihrem Garten sind geprüfte Qualitätsprodukte. Wir zeigen Ihnen die am Markt gegebene Möglichkeiten zur Umsetzung Ihrer Idee an und wählen gemeinsam die beste Alternative aus.</p>"
-titel = "Ein Handwerksbetrieb der trotz der Hochkonjunktur in der Baubranche auf QUALITÄT setzt."
+content = "<p>Alle von uns verwendeten Produkte von Ziegelstein bis zum Baum in Ihrem Garten sind geprüfte Qualitätsprodukte. Wir achten auf Nachhaltigkeit und Wertbeständigkeit der Materialien. Auch die Maschinen und Werkzeuge die wir einsetzen sind hochwertige Profigeräte. Durch ein großes Netzwerk mit unseren Partnern können wir Ihnen die beste Qualität zu fairen Preisen anbieten.</p>"
+titel = "Unser Handwerksbetrieb setzt auf QUALITÄT."
 [[bloecke]]
 bild = "/uploads/2018/06/11/knowhow.png"
 content = "<p>Was sind Innovationen? Innovationen sind neue Ideen oder Produkte die eine Verbesserung für ein Vorhaben bieten. Wir sind ständig auf der Suche nach neuen Materialen und Trends, dafür besuchen wir für Sie Fachmessen und halten engen Kontakt zu den Herstellen.</p>"
