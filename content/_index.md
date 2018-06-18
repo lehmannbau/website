@@ -23,10 +23,10 @@ leistungen:
     icon: "/uploads/2018/06/11/icon_3.jpg"
     content: "<p>Neuanlagen von Garten- und Grünflächen, Neuanlagen von öffentlichen
       Grünflächen nach DIN Normen und Vorschriften, Zäune, Terrassen ...</p>"
-  - titel: Innenausbau
+  - titel: INNENAUSBAU
     icon: "/uploads/2018/06/11/icon2.jpg"
-    content: "<p>Bodenverlegung, Wandgestaltung, Rigipskonstruktionen, Isolierung,
-      Treppenbau, Industrieböden ...</p>"
+    content: "<p>Parkett- und Fliesenverlegung, Bodenverlegung, Wandgestaltung, Rigipskonstruktionen,
+      Isolierung ...</p>"
   - titel: Massivbau
     icon: "/uploads/2018/06/11/icon_one.jpg"
     content: "<p>Bodenplatte, Rohbau, Hochbau, Garagen, Holzbau, schlüsselfertiges
