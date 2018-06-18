@@ -19,10 +19,10 @@ leistungen:
   content: ''
   hintergrund: "/uploads/2018/06/11/background.jpg"
   leistungen:
-  - titel: Gartengestaltung
+  - titel: GARTENBAU
     icon: "/uploads/2018/06/11/icon_3.jpg"
-    content: "<p>Pflasterbau, Mauerbau, Zaunbau, Terrassenbau, Rollrasen, Pflanzenhandel,
-      Gartenneuanlagen und -Planung ...</p>"
+    content: "<p>Neuanlagen von Garten- und Grünflächen, Neuanlagen von öffentlichen
+      Grünflächen nach DIN Normen und Vorschriften, Zäune, Terrassen ...</p>"
   - titel: Innenausbau
     icon: "/uploads/2018/06/11/icon2.jpg"
     content: "<p>Bodenverlegung, Wandgestaltung, Rigipskonstruktionen, Isolierung,
