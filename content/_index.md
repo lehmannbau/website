@@ -30,7 +30,7 @@ leistungen:
   - titel: MASSIVBAU / HOCHBAU
     icon: "/uploads/2018/06/11/icon_one.jpg"
     content: "<p>Hochbau , Rohbau, Garagen, Holzbau, Bodenplatte, Schlüsselfertiges
-      Bauen, Projektbegleitung</p>"
+      Bauen, Projektbegleitung ...</p>"
 seo_description: 'LEHMANN BAU: Gartengestaltung, Innenausbau, Massivbau: Pflasterarbeiten,
   Terrassen, Bodenverlegung, Isolierung, Treppenbau, Garagen, Hochbau, Rohbau, Bodenplatte,
   Holzbau'
