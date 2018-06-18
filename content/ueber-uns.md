@@ -20,7 +20,7 @@ content = "<p>Alle von uns verwendeten Produkte von Ziegelstein bis zum Baum in 
 titel = "Unser Handwerksbetrieb setzt auf QUALITÄT."
 [[bloecke]]
 bild = "/uploads/2018/06/11/knowhow.png"
-content = "<p>Was sind Innovationen? Innovationen sind neue Ideen oder Produkte die eine Verbesserung für ein Vorhaben bieten. Wir sind ständig auf der Suche nach neuen Materialen und Trends, dafür besuchen wir für Sie Fachmessen und halten engen Kontakt zu den Herstellen.</p>"
-titel = "Ein Handwerksbetrieb der trotz hohen Preiswettbewerb auf INNOVATION setzt."
+content = "<p>Innovationen sind neue Ideen, Produkte oder Verfahren die eine Verbesserung oder Neuerung für ein Vorhaben bieten. Wir sind ständig auf der Suche nach neuen Materialen, Trends, Methoden und Ideen für Ihre Proojekte. Dafür besuchen wir für Sie Fachmessen, entwickeln eigene Lösungen und halten engen Kontakt zu den Herstellen.</p>"
+titel = "Unser Handwerksbetrieb setzt auf INNOVATION."
 
 +++
