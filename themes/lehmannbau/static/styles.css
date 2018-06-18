@@ -306,8 +306,12 @@ header .mobileMenu a:first-child {
 .home_about .dr {
   border-top: 3vh solid #f0f0f0;
 }
+.home.services_list h3 {
+  font-size: 1.28571429rem;
+  text-transform: uppercase;
+}
 .home_services {
-  padding: 4rem 0;
+  padding: 2rem 0;
   margin-bottom: 5rem;
   position: relative;
   min-height: 200px;
@@ -317,11 +321,22 @@ header .mobileMenu a:first-child {
     padding: 2rem 0;
   }
 }
+.home_services .cw {
+  margin-bottom: 0;
+}
+.home_services .grid {
+  padding: 2rem 0;
+}
+.home_services .sblock {
+  display: inline-block;
+  margin-top: 4rem;
+}
 .home_services h2 {
   color: white;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.71428571rem;
   text-align: center;
+  margin-top: 2rem;
 }
 .home_services ul {
   margin: 0;
@@ -330,7 +345,7 @@ header .mobileMenu a:first-child {
 .home_services .column {
   background: white;
   text-align: center;
-  margin: 2rem 0 -5rem 0;
+  margin-bottom: -3rem;
   border-right: 1px solid #777777;
 }
 .home_services .column img {
@@ -613,38 +628,38 @@ header .mobileMenu a:first-child {
   background-color: #fff;
   padding: 1em;
 }
-.services_page .services_list .iconwrap {
+.services_list .iconwrap {
   position: absolute;
   top: 10%;
   left: -30px;
   height: 80%;
 }
-.services_page .services_list .iconwrap img {
+.services_list .iconwrap img {
   position: absolute;
   z-index: 1;
   top: 50%;
   margin-top: -40px;
   margin-left: -40px;
 }
-.services_page .services_list .iconwrap .d1 {
+.services_list .iconwrap .d1 {
   height: calc(20%);
   top: 0;
   border-right: 1px solid #4c4c52;
   position: absolute;
 }
-.services_page .services_list .iconwrap .d2 {
+.services_list .iconwrap .d2 {
   height: calc(20%);
   bottom: 0;
   border-right: 1px solid #4c4c52;
   position: absolute;
 }
-.services_page .services_list .odd {
+.services_list .odd {
   background: #f0f0f0;
 }
-.services_page .services_list .odd .column.content {
+.services_list .odd .column.content {
   padding: 3rem 60px 3rem 0;
 }
-.services_page .services_list .odd .iconwrap {
+.services_list .odd .iconwrap {
   right: -30px !important;
   left: auto;
 }
@@ -701,24 +716,34 @@ header .mobileMenu a:first-child {
 .about_page .slogan p {
   text-align: right;
 }
-.contact_page .bottomg {
+.home.contact {
+  background: #f0f0f0;
+}
+.contact_page .bottomg,
+.home.contact .bottomg {
   margin-top: 2rem;
   background: #cad51d;
 }
-.contact_page .bottomg .rc {
+.contact_page .bottomg .rc,
+.home.contact .bottomg .rc {
   min-height: 30vh;
 }
-.contact_page .bottomg .lc {
+.contact_page .bottomg .lc,
+.home.contact .bottomg .lc {
   min-height: 30vh;
 }
-.contact_page .bottomg .lc h3 {
+.contact_page .bottomg .lc h3,
+.home.contact .bottomg .lc h3 {
   font-weight: 200;
-  font-size: 1.8rem;
+  font-size: 1.8rem!important;
+  color: #4c4c52 !important;
 }
-.contact_page .bottomg .lc p {
+.contact_page .bottomg .lc p,
+.home.contact .bottomg .lc p {
   margin-bottom: 2rem;
 }
-.contact_page .bottomg .lc a {
+.contact_page .bottomg .lc a,
+.home.contact .bottomg .lc a {
   padding: 0.5rem 1rem;
   color: white;
   background: #4c4c52;

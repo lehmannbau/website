@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "main" }} {{ $l := .Site.GetPage "page" "leistungen.md" }} {{ $k := .Site.GetPage "page" "kontakt.md" }}
 <div class="home_topteaser" style="background:url({{partial "imgUrl" (dict "img" .Params.teaser_oben.bild "params " "c_scale,h_600" )}}) center center; background-size:cover">
 
 </div>
@@ -15,23 +15,91 @@
   <div class="ui container">
     <h2>{{.Params.leistungen.titel}}</h2>
     <div>{{ .Params.leistungen.content | safeHTML }}</div>
-    <div class="ui stackable three column grid">
-      {{ range .Params.leistungen.leistungen }}
-      <div class="column imgcol">
-        <div class="cw">
-          <a href="/leistungen">
-            <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_360" )}}" />
-            <h3>{{.titel}}</h3>
-            <div class="content">{{.content  | safeHTML}}</div>
-          </a>
+    <div class="sblock">
+      <div class="ui stackable three column grid">
+        {{ range .Params.leistungen.leistungen }}
+        <div class="column imgcol">
+          <div class="cw">
+            <a href="/leistungen">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_360" )}}" />
+              <h3>{{.titel}}</h3>
+              <div class="content">{{.content  | safeHTML}}</div>
+            </a>
+          </div>
         </div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
   </div>
   <div class="dw">
     <div class="dl"></div>
     <div class="dr"></div>
+  </div>
+</div>
+<div class="home services_list">
+  <div class="ui grid stackable">
+    {{ range $i,$p := $l.Params.leistungen }} {{if not (modBool $i 2)}}
+    <div class="row odd">
+      <div class="two wide column respDesktop"></div>
+      <div class="eight wide column content">
+        <h3>{{.titel}}</h3>
+        <div>{{ .content | safeHTML }}</div>
+        <div class="iconwrap respDesktop">
+          <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
+          <div class="d1"></div>
+          <div class="d2"></div>
+        </div>
+      </div>
+      <div class="six wide column respDesktop" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) right -20px bottom no-repeat; background-size:contain">
+      </div>
+    </div>
+    {{else}}
+      <div class="row">
+        <div class="six wide column respDesktop" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) -20px bottom no-repeat; background-size:contain">
+        </div>
+        <div class="eight wide column content">
+          <h3>{{.titel}}</h3>
+          <div>{{ .content | safeHTML }}</div>
+          <div class="iconwrap respDesktop">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_80,h_80" )}}" />
+            <div class="d1"></div>
+            <div class="d2"></div>
+          </div>
+        </div>
+        <div class="two wide column respDesktop"></div>
+      </div>
+      {{end}} {{end}}
+  </div>
+</div>
+<div class="home contact">
+  <div class="ui container titlecontainer">
+    <h1>{{ $k.Params.titel }}</h1>
+    <div class="dw">
+      <div class="dl"></div>
+      <div class="dr"></div>
+    </div>
+  </div>
+  <div class="ui container">
+    <div class="ui grid stackable two columns">
+      <div class="ui column">
+        {{ $k.Params.content_links | safeHTML }}
+      </div>
+      <div class="ui column">
+        {{ $k.Params.content_rechts | safeHTML }}
+      </div>
+    </div>
+  </div>
+  <div class="bottomg">
+    <div class="ui container">
+      <div class="ui grid stackable two columns">
+        <div class="ui column lc">
+          {{ $k.Params.content_unten_links | safeHTML }}
+        </div>
+        <a href="{{$k.Params.karte_googlemaps_link}}" target="_blank" class="ui column rc" style="background:url({{partial "imgUrl" (dict "img" $k.Params.karte_bild "params" "c_scale,h_400" )}}) center center; background-size:cover">
+
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 {{ end }}
