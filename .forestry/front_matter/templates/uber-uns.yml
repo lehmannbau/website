@@ -39,4 +39,4 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
-- ueber-uns.md
+- content/ueber-uns.md
