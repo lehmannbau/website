@@ -23,6 +23,7 @@ bild = "/uploads/2018/06/11/knowhow.png"
 content = "<p>Innovationen sind neue Ideen, Produkte oder Verfahren die eine Verbesserung oder Neuerung für ein Vorhaben bieten. Wir sind ständig auf der Suche nach neuen Materialen, Trends, Methoden und Ideen für Ihre Projekte. Dafür besuchen wir für Sie Fachmessen, entwickeln eigene Lösungen und halten engen Kontakt zu den Herstellen.</p>"
 titel = "Unser Handwerksbetrieb setzt auf INNOVATION."
 [[bloecke]]
+bild = "/uploads/2018/06/20/garantie.jpg"
 content = "<p>Auf alle unsere Leistungen gewähren wir selbstverständlich die Garantie.</p>"
 titel = "Garantie"
 
