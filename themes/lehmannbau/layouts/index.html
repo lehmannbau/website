@@ -20,7 +20,7 @@
         {{ range .Params.leistungen.leistungen }}
         <div class="column imgcol">
           <div class="cw">
-            <a href="/leistungen">
+            <a href="/leistungen#{{md5 .titel}}">
               <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,w_360" )}}" />
               <h3>{{.titel}}</h3>
               <div class="content">{{.content  | safeHTML}}</div>

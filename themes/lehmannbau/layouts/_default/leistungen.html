@@ -13,7 +13,7 @@
   <div class="services_list">
     <div class="ui grid stackable">
       {{ range $i,$p := .Params.leistungen }} {{if not (modBool $i 2)}}
-      <div class="row odd">
+      <div class="row odd" id="{{md5 .titel}}">
         <div class="two wide column respDesktop"></div>
         <div class="eight wide column content">
           <h3>{{.titel}}</h3>
@@ -28,7 +28,7 @@
         </div>
       </div>
       {{else}}
-        <div class="row">
+        <div class="row" id="{{md5 .titel}}">
           <div class="six wide column respDesktop" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "c_scale,h_400" )}}) -20px bottom no-repeat; background-size:contain">
           </div>
           <div class="eight wide column content">
