@@ -19,6 +19,10 @@ leistungen:
   content: ''
   hintergrund: "/uploads/2018/06/11/background.jpg"
   leistungen:
+  - titel: MASSIVBAU / HOCHBAU
+    icon: "/uploads/2018/06/11/icon_one.jpg"
+    content: "<p>Hochbau , Rohbau, Garagen, Holzbau, Bodenplatte, Schlüsselfertiges
+      Bauen, Projektbegleitung ...</p>"
   - titel: GARTENBAU
     icon: "/uploads/2018/06/11/icon_3.jpg"
     content: "<p>Neuanlagen von Garten- und Grünflächen, Neuanlagen von öffentlichen
@@ -27,10 +31,6 @@ leistungen:
     icon: "/uploads/2018/06/11/icon2.jpg"
     content: "<p>Parkett- und Fliesenverlegung, Bodenverlegung, Wandgestaltung, Rigipskonstruktionen,
       Isolierung ...</p>"
-  - titel: MASSIVBAU / HOCHBAU
-    icon: "/uploads/2018/06/11/icon_one.jpg"
-    content: "<p>Hochbau , Rohbau, Garagen, Holzbau, Bodenplatte, Schlüsselfertiges
-      Bauen, Projektbegleitung ...</p>"
 seo_description: 'LEHMANN BAU: Gartengestaltung, Innenausbau, Massivbau: Pflasterarbeiten,
   Terrassen, Bodenverlegung, Isolierung, Treppenbau, Garagen, Hochbau, Rohbau, Bodenplatte,
   Holzbau'
