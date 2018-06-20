@@ -23,7 +23,7 @@ leistungen:
     icon: "/uploads/2018/06/11/icon_one.jpg"
     content: "<p>Hochbau , Rohbau, Garagen, Holzbau, Bodenplatte, Schlüsselfertiges
       Bauen, Projektbegleitung ...</p>"
-  - titel: INNENAUSBAU
+  - titel: INNENAUSBAU / TROCKENBAU
     icon: "/uploads/2018/06/11/icon2.jpg"
     content: "<p>Parkett- und Fliesenverlegung, Bodenverlegung, Wandgestaltung, Rigipskonstruktionen,
       Isolierung ...</p>"
