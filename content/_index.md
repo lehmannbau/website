@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2018-05-06 20:19:54 +0200
+date: 2018-07-06 20:19:54 +0200
 type: page
 teaser_oben:
   bild: "/uploads/2018/06/11/lehmann_head.jpg"
