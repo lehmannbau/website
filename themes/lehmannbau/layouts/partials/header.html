@@ -17,7 +17,7 @@
           <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "c_scale,w_200,f_auto" )}}" />
         </a>
       </div>
-      <div class="column contacts">
+      <a class="column contacts" href="/kontakt">
         <ul>
           {{ range $t.Params.kontaktdaten }}
           <li>
@@ -25,7 +25,7 @@
           </li>
           {{ end }}
         </ul>
-      </div>
+      </a>
     </div>
     <div class="mobileHeader respMobile">
       <a href="/">

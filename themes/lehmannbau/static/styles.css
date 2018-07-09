@@ -719,6 +719,9 @@ header .mobileMenu a:first-child {
 .home.contact {
   background: #f0f0f0;
 }
+.home.contact .titlecontainer {
+  background: transparent!important;
+}
 .contact_page .bottomg,
 .home.contact .bottomg {
   margin-top: 2rem;

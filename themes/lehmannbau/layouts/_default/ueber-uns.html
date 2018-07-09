@@ -41,4 +41,24 @@
       {{ .Params.slogan | safeHTML }}
     </div>
   </div>
+  {{ $k := .Site.GetPage "page" "kontakt.md" }}
+  <div class="home contact">
+    <div class="ui container titlecontainer">
+      <h1>{{ $k.Params.titel }}</h1>
+      <div class="dw">
+        <div class="dl"></div>
+        <div class="dr"></div>
+      </div>
+    </div>
+    <div class="ui container">
+      <div class="ui grid stackable two columns">
+        <div class="ui column">
+          {{ $k.Params.content_links | safeHTML }}
+        </div>
+        <div class="ui column">
+          {{ $k.Params.content_rechts | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
   {{ end }}
