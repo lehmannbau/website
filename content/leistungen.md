@@ -14,7 +14,7 @@ hintergrund = "/uploads/fotolia_110410228.jpg"
 icon = "/uploads/2018/06/11/icon_sw_innen.png"
 titel = "MASSIVBAU / HOCHBAU"
 [[leistungen]]
-content = "<p>Auch für die Gewerke im Innenausbau sind wir der richtige Ansprechpartner für Sie. Wir bieten Ihnen innovative Lösungen für Ihr Vorhaben an:</p><ul><li><p>Parkett- und Fliesenverlegung</p></li><li><p>Bodenverlegung sonstiger Arten</p></li><li><p>Wandgestaltung</p></li><li><p>Rigipskonstruktionen</p></li><li><p>Isolierung</p></li><li><p>Treppenbau</p></li><li><p>Industrieböden</p></li></ul>"
+content = "<p>Auch für die Gewerke im Innenausbau sind wir der richtige Ansprechpartner für Sie. Wir bieten Ihnen innovative Lösungen für Ihr Vorhaben an:</p><ul><li><p>Parkett- und Fliesenverlegung</p></li><li><p>Bodenverlegung sonstiger Arten</p></li><li><p>Wandgestaltung</p></li><li><p>Rigipskonstruktionen</p></li><li><p>Treppenbau</p></li><li><p>Industrieböden</p></li></ul>"
 hintergrund = "/uploads/2018/06/11/holzInnen_neu.png"
 icon = "/uploads/2018/06/11/icon_sw_innen_neu.png"
 titel = "INNENAUSBAU / TROCKENBAU"
