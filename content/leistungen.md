@@ -9,7 +9,7 @@ type = "page"
 [menu.main]
 weight = 2
 [[leistungen]]
-content = "<p>Wir sind ihr Partner für den nachhaltigen und qualitativen Massivhausbau. Von der ersten Idee bis zur schlüsselfertigen Umsetzung begleiten wir Sie mit unserem Know-How und einem erfahrenen Team zu Ihrem Ziel.</p><ul><li><p>Hochbau </p></li><li><p>Rohbau</p></li><li><p>Garagen</p></li><li><p>Holzbau</p></li><li><p>Bodenplatte</p></li><li><p>Schlüsselfertiges Bauen</p></li><li><p>Projektbegleitung</p></li></ul>"
+content = "<p>Wir sind ihr Partner für den nachhaltigen und qualitativen Massivhausbau. Von der ersten Idee bis zur schlüsselfertigen Umsetzung begleiten wir Sie mit unserem Know-How und einem erfahrenen Team zu Ihrem Ziel.</p><ul><li><p>Hochbau</p></li><li><p>Rohbau</p></li><li><p>Garagen</p></li><li><p>Bodenplatte</p></li><li><p>Schlüsselfertiges Bauen</p></li><li><p>Projektbegleitung</p></li></ul>"
 hintergrund = "/uploads/fotolia_110410228.jpg"
 icon = "/uploads/2018/06/11/icon_sw_innen.png"
 titel = "MASSIVBAU / HOCHBAU"
