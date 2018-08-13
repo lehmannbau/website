@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2018-07-06 20:19:54 +0200
+date: 2018-07-06 18:19:54 +0000
 type: page
 teaser_oben:
   bild: "/uploads/2018/06/11/lehmann_head.jpg"
@@ -21,8 +21,8 @@ leistungen:
   leistungen:
   - titel: MASSIVBAU / HOCHBAU
     icon: "/uploads/2018/06/11/icon_one.jpg"
-    content: "<p>Hochbau , Rohbau, Garagen, Holzbau, Bodenplatte, Schlüsselfertiges
-      Bauen, Projektbegleitung ...</p>"
+    content: "<p>Hochbau , Rohbau, Garagen, Bodenplatte, Schlüsselfertiges Bauen,
+      Projektbegleitung ...</p>"
   - titel: INNENAUSBAU / TROCKENBAU
     icon: "/uploads/2018/06/11/icon2.jpg"
     content: "<p>Parkett- und Fliesenverlegung, Bodenverlegung, Wandgestaltung, Rigipskonstruktionen,
