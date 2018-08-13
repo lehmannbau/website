@@ -25,8 +25,8 @@ leistungen:
       Projektbegleitung ...</p>"
   - titel: INNENAUSBAU / TROCKENBAU
     icon: "/uploads/2018/06/11/icon2.jpg"
-    content: "<p>Parkett- und Fliesenverlegung, Bodenverlegung, Wandgestaltung, Rigipskonstruktionen,
-      Isolierung ...</p>"
+    content: "<p>Parkett- und Fliesenverlegung, Bodenverlegung, Wandgestaltung, Rigipskonstruktionen
+      ...</p>"
   - titel: GARTENBAU
     icon: "/uploads/2018/06/11/icon_3.jpg"
     content: "<p>Neuanlagen von Garten- und Grünflächen, Neuanlagen von öffentlichen
