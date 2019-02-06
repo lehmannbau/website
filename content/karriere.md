@@ -8,6 +8,9 @@ karte_bild = ""
 karte_googlemaps_link = "QXQW+79 Rohr in Niederbayern"
 seo_description = "Bauhelfer, Pflasterer, Maurer"
 titel = "Wir suchen Dich!"
+[menu.main]
+name = "Karriere"
+weight = 6
 [[leistungen]]
 content = "<p>Jetzt bewerben telefonisch oder per email!</p><p></p>"
 titel = "Wir suchen Dich! "
