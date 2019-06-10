@@ -10,6 +10,14 @@ type = "page"
 [menu.main]
 weight = 3
 [[referenzen]]
+bezeichnung = "Anlage Regensburg/Brandlberg"
+bilder = ["/uploads/2019/06/10/IMG_2945.jpg", "/uploads/2019/06/10/DSCN0116.JPG", "/uploads/2019/06/10/DSCN0114.JPG", "/uploads/2019/06/10/IMG_2698.JPG", "/uploads/2019/06/10/DSCN0036.JPG", "/uploads/2019/06/10/2defa6c9-44bb-4e2c-908b-27671a2aac3a-1.jpg", "/uploads/2019/06/10/2defa6c9-44bb-4e2c-908b-27671a2aac3a.jpg", "/uploads/2019/06/10/b9d7ecba-004c-4170-9c24-f53c53d8898b.jpg", "/uploads/2019/06/10/6f238dde-56aa-4cfb-961f-3e6bc338eb9c.jpg", "/uploads/2019/06/10/536d97f8-ba82-429d-9902-cd41230dcc4d.jpg"]
+content = ""
+[[referenzen]]
+bezeichnung = "Wohnanlagen Regensburg Brandlberg"
+bilder = []
+content = ""
+[[referenzen]]
 bezeichnung = "Bauvorhaben Abensberg"
 bilder = ["/uploads/IMG_0300.jpeg", "/uploads/IMG_0303.jpeg", "/uploads/IMG_0298.jpeg", "/uploads/IMG_0302.jpeg", "/uploads/IMG_0299.jpeg"]
 content = "<ul><li><p>Holzterrasse mit Unterkonstruktion</p></li><li><p>Granitblockstufen</p></li><li><p>Gartenmauer mit Kalkstein</p></li></ul>"
