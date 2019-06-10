@@ -39,5 +39,6 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
+- content/über-uns.md
 - content/Karriere.md
 - content/ueber-uns.md
