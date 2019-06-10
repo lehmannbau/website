@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2018-07-06 18:19:54 +0000
+date: '2018-07-06T18:19:54.000+00:00'
 type: page
 teaser_oben:
   bild: "/uploads/2018/06/11/lehmann_head.jpg"
