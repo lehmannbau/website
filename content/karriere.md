@@ -13,6 +13,8 @@ name = "Karriere"
 weight = 6
 [[leistungen]]
 content = "<p>Jetzt bewerben telefonisch oder per email!</p><p></p>"
+hintergrund = ""
+icon = ""
 titel = "Wir suchen Dich! "
 
 +++
