@@ -1,6 +1,6 @@
 +++
 bild_oben = "/uploads/2019/02/06/206x206.jpeg"
-content_links = ""
+content_links = "<p>Schicken Sie uns Ihre aussagekräftige Bewerbung per E-Mail zu.</p>"
 content_rechts = ""
 content_unten_links = "<p>Wir freuen uns auf Ihre Bewerbung telefonisch oder per email!</p>"
 date = "2019-02-06T14:04:22+01:00"
