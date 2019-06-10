@@ -10,6 +10,10 @@ type = "page"
 [menu.main]
 weight = 3
 [[referenzen]]
+bezeichnung = "Einfamilienhaus Regensburg"
+bilder = ["/uploads/2019/06/10/aa4771c6-c89a-426d-bad0-e420519babfe.JPG", "/uploads/2019/06/10/efb73760-b5f8-416d-929a-e16a3fff0bd2.JPG", "/uploads/2019/06/10/286bddbc-1687-4d86-80d2-58ceac2a3b18.JPG", "/uploads/2019/06/10/927933a7-5197-408f-b3ec-274e16dc67bd.JPG", "/uploads/2019/06/10/dc59506d-28d2-4c1a-8076-d73ef46274f4.JPG", "/uploads/2019/06/10/92abbabd-ecc8-49ce-9463-7e7686c190f2.JPG"]
+content = "<ul><li><p>Bodenplatte</p></li><li><p>Rohbau mit Massiv Ziegel Silvacor mit Holzfaser</p></li></ul>"
+[[referenzen]]
 bezeichnung = "Anlage Regensburg/Brandlberg 83 DHH/Reihenhäuser"
 bilder = ["/uploads/2019/06/10/IMG_2945.jpg", "/uploads/2019/06/10/DSCN0116.JPG", "/uploads/2019/06/10/IMG_2698.JPG", "/uploads/2019/06/10/2defa6c9-44bb-4e2c-908b-27671a2aac3a-1.jpg", "/uploads/2019/06/10/8363780e-7808-4a03-af98-a550bf8632e0.JPG", "/uploads/2019/06/10/e2e50a69-7170-4862-b405-8e7f24260fbf.JPG", "/uploads/2019/06/10/6f238dde-56aa-4cfb-961f-3e6bc338eb9c.jpg", "/uploads/2019/06/10/536d97f8-ba82-429d-9902-cd41230dcc4d.jpg"]
 content = "<ul><li><p>Fertigteilbau</p></li><li><p>Entwässerung </p></li><li><p>Stützmauer L-Steine</p></li><li><p>Pflasterarbeiten</p></li><li><p>Terrassen</p></li><li><p>Erdarbeiten </p></li><li><p>Begrünung </p></li><li><p>Zaun </p></li></ul>"
