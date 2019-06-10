@@ -3,7 +3,7 @@ bild_oben = "/uploads/2019/02/06/206x206.jpeg"
 seo_description = ""
 slogan = "<p></p>"
 titel = "Wir suchen Dich!"
-untertitel = ""
+untertitel = "Offene Stellen "
 [menu.main]
 name = "Karriere "
 weight = 6
