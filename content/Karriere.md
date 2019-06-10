@@ -4,6 +4,9 @@ seo_description = ""
 slogan = "<p></p>"
 titel = "Wir suchen Dich!"
 untertitel = ""
+[menu.main]
+name = "Karriere "
+weight = 6
 [[bloecke]]
 bild = ""
 content = ""
