@@ -1,7 +1,6 @@
 +++
 bild_oben = "/uploads/2018/06/11/background.jpg"
 date = "2018-05-25T09:48:59+02:00"
-draft = true
 layout = "ueber-uns"
 seo_description = "LEHMANN BAU - Qualität, Professionalität, Innovation - das sind wir Ein Handwerksbetrieb der trotz Fachkräftemangel auf PROFESSIONALITÄT setzt. Ein Handwerksbetrieb der trotz Fachkräftemangel auf PROFESSIONALITÄT setzt. Ein Handwerksbetrieb der trotz hohen Preiswettbewerb auf INNOVATION setzt."
 slogan = "<blockquote><p>Dass wir die besten sind, sagen nicht wir mit einem Slogan, das sagen unsere Kunden mit Ihrer Erfahrung</p></blockquote><p>Ihr Lehmann Bau Team</p>"
