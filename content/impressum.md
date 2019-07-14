@@ -6,12 +6,12 @@ type = "page"
 weight = 2
 
 +++
-Lehmann Bau GmbH   
+Lehmann Bau GmbH  
 Inhaber: Lehmann Sven und Lehmann Elvira  
 Kleinthalhof 45  
 93352 Rohr in Niederbayern
 
-Tel. 08783-9671272  
+Tel. 08783-33-199-85  
 info@lehmann-bau.com
 
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:  
