@@ -11,8 +11,8 @@ type = "page"
 weight = 3
 [[referenzen]]
 bezeichnung = "Gartenanlage Mitterfecking"
-bilder = ["/uploads/2020/03/29/IMG_3785.JPG", "/uploads/2020/03/29/IMG_3786.JPG"]
-content = ""
+bilder = ["/uploads/2020/03/29/IMG_3791-1.JPG", "/uploads/2020/03/29/IMG_3787-1.JPG", "/uploads/2020/03/29/IMG_3784-1.JPG", "/uploads/2020/03/29/IMG_3785.JPG", "/uploads/2020/03/29/IMG_3786.JPG"]
+content = "<p>Rollrasen, Gartenecke, Terrasse, Pflaster </p>"
 [[referenzen]]
 bezeichnung = "Bauvorhaben in Kelheim"
 bilder = ["/uploads/2020/03/06/IMG_5222-1.JPG", "/uploads/2020/03/06/IMG_5221-1.JPG"]
