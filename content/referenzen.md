@@ -10,6 +10,10 @@ type = "page"
 [menu.main]
 weight = 3
 [[referenzen]]
+bezeichnung = "Gartenanlage Mitterfecking"
+bilder = ["/uploads/2020/03/29/IMG_3785.JPG", "/uploads/2020/03/29/IMG_3786.JPG"]
+content = ""
+[[referenzen]]
 bezeichnung = "Bauvorhaben in Kelheim"
 bilder = ["/uploads/2020/03/06/IMG_5222-1.JPG", "/uploads/2020/03/06/IMG_5221-1.JPG"]
 content = "<ul><li><p>Entkernungsarbeiten</p></li><li><p>Verputzarbeiten </p></li><li><p>Renovierungsarbeiten</p></li></ul>"
