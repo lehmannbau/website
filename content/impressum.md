@@ -7,7 +7,7 @@ weight = 2
 
 +++
 Lehmann Bau GmbH  
-Inhaber: Lehmann Elvira  
+Inhaber: Lehmann Elvira, Lehmann Sven  
 Kleinthalhof 45  
 93352 Rohr in Niederbayern
 
