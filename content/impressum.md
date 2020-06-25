@@ -1,6 +1,5 @@
 +++
 date = 2018-05-25T07:46:31Z
-draft = true
 title = "Impressum"
 type = "page"
 [menu.footer]
